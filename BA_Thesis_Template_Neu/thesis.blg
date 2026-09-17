@@ -1,0 +1,11 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'thesis.blg'
+[99] biber-MSWIN64:342> INFO - === 
+[130] Biber.pm:421> INFO - Reading 'thesis.bcf'
+[222] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[234] Biber.pm:4487> INFO - Processing section 0
+[244] Biber.pm:4678> INFO - Looking for bibtex file 'Quellen.bib' for section 0
+[284] bibtex.pm:1713> INFO - LaTeX decoding ...
+[289] bibtex.pm:1519> INFO - Found BibTeX data source 'Quellen.bib'
+[321] Utils.pm:479> ERROR - BibTeX subsystem: C:\Users\nassi\AppData\Local\Temp\biber_tmp_ngIk\826576dfe551763dc80d2ee044d5c15c_23060.utf8, line 1, syntax error: found "{\ss}", expected ","
+[321] Biber.pm:137> INFO - ERRORS: 1

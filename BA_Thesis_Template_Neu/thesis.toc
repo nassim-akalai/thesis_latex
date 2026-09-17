@@ -1,0 +1,100 @@
+\contentsline {chapter}{Eidesstattliche Erkl\"arung}{I}{section*.2}%
+\contentsline {chapter}{Zusammenfassung}{II}{section*.3}%
+\contentsline {chapter}{Abstract}{III}{section*.4}%
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter*.7}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section*.8}%
+\contentsline {section}{\numberline {1.2}Problemstellung und Forschungsfrage}{2}{section*.9}%
+\contentsline {section}{\numberline {1.3}Zielsetzung und Beitrag}{2}{section*.10}%
+\contentsline {section}{\numberline {1.4}Aufbau der Arbeit}{3}{section*.11}%
+\contentsline {chapter}{\numberline {2}Grundlagen}{7}{chapter*.12}%
+\contentsline {section}{\numberline {2.1}Systeme und zeitliche Anforderungen}{7}{section*.13}%
+\contentsline {section}{\numberline {2.2}Real Time Systems}{9}{section*.14}%
+\contentsline {section}{\numberline {2.3}Eingebettete Systeme}{9}{section*.15}%
+\contentsline {section}{\numberline {2.4}Echtzeitbetriebssysteme}{11}{section*.16}%
+\contentsline {section}{\numberline {2.5}Zephyr RTOS}{12}{section*.17}%
+\contentsline {subsection}{\numberline {2.5.1}Laufzeit-Konzepte}{13}{subsection*.18}%
+\contentsline {subsubsection}{Threads und Scheduling}{14}{section*.19}%
+\contentsline {subsubsection}{Synchronisation (Semaphore)}{15}{section*.20}%
+\contentsline {subsubsection}{Interrupts}{16}{section*.21}%
+\contentsline {subsubsection}{Timer und Tickless-Kernel}{17}{section*.22}%
+\contentsline {subsubsection}{Speicherverwaltung}{18}{section*.23}%
+\contentsline {subsubsection}{Logging-Subsystem}{20}{section*.24}%
+\contentsline {subsubsection}{Timing-API}{21}{section*.25}%
+\contentsline {subsection}{\numberline {2.5.2}Build-Zeit-Konzepte}{22}{subsection*.26}%
+\contentsline {subsubsection}{Kconfig}{23}{section*.27}%
+\contentsline {subsubsection}{CMake und Zephyr-Module}{24}{section*.28}%
+\contentsline {subsubsection}{West}{25}{section*.29}%
+\contentsline {subsubsection}{Build-System-Werkzeuge zur Analyse des Speicherbedarfs}{26}{section*.30}%
+\contentsline {section}{\numberline {2.6}Benchmark Metriken}{26}{section*.31}%
+\contentsline {subsection}{\numberline {2.6.1}Context Switch}{27}{subsection*.32}%
+\contentsline {subsection}{\numberline {2.6.2}Interrupt Latency}{27}{subsection*.33}%
+\contentsline {subsection}{\numberline {2.6.3}Timer-Jitter}{27}{subsection*.34}%
+\contentsline {subsection}{\numberline {2.6.4}Heap-Allokation/ Fragmentierung}{28}{subsection*.35}%
+\contentsline {subsection}{\numberline {2.6.5}RAM/ ROM}{28}{subsection*.36}%
+\contentsline {section}{\numberline {2.7}Netzwerk- und Sicherheitskonzepte}{29}{section*.37}%
+\contentsline {subsection}{\numberline {2.7.1}Netzwerk-Stack und CoAP}{29}{subsection*.38}%
+\contentsline {subsection}{\numberline {2.7.2}Transportverschl{\"u}sselung durch TLS/ DTLS und Pre-Shared Keys}{30}{subsection*.39}%
+\contentsline {subsection}{\numberline {2.7.3}Thread, 6LoWPAN und IEEE 802.15.4}{30}{subsection*.40}%
+\contentsline {subsection}{\numberline {2.7.4}Firmware-Updates: MCUmgr und MCUboot}{31}{subsection*.41}%
+\contentsline {chapter}{\numberline {3}Verwandte Arbeiten}{32}{chapter*.42}%
+\contentsline {section}{\numberline {3.1}RTOS-Benchmarking allgemein}{32}{section*.43}%
+\contentsline {section}{\numberline {3.2}Bestehende RTOS-Benchmarks}{33}{section*.44}%
+\contentsline {section}{\numberline {3.3}Zephyr-spezifische Benchmarks}{34}{section*.45}%
+\contentsline {section}{\numberline {3.4}Abgrenzung der eigenen Arbeit}{37}{section*.46}%
+\contentsline {chapter}{\numberline {4}Methodik und Versuchsaufbau}{38}{chapter*.47}%
+\contentsline {section}{\numberline {4.1}Forschungsdesign}{38}{section*.48}%
+\contentsline {section}{\numberline {4.2}Zielplattform}{39}{section*.49}%
+\contentsline {section}{\numberline {4.3}Softwareumgebung}{40}{section*.50}%
+\contentsline {section}{\numberline {4.4}Unabh{\"a}ngige Variablen}{40}{section*.51}%
+\contentsline {subsection}{\numberline {4.4.1}Minimal Konfiguration}{40}{subsection*.52}%
+\contentsline {subsection}{\numberline {4.4.2}Logging}{41}{subsection*.53}%
+\contentsline {subsection}{\numberline {4.4.3}IoT-Stack}{41}{subsection*.54}%
+\contentsline {section}{\numberline {4.5}Abh{\"a}ngige Variablen}{41}{section*.55}%
+\contentsline {subsection}{\numberline {4.5.1}Context-Switch-Latenz}{41}{subsection*.56}%
+\contentsline {subsection}{\numberline {4.5.2}Interrupt-Latenz}{42}{subsection*.57}%
+\contentsline {subsection}{\numberline {4.5.3}Timer-Jitter}{42}{subsection*.58}%
+\contentsline {subsection}{\numberline {4.5.4}Heap-Allokationsgeschwindigkeit}{42}{subsection*.59}%
+\contentsline {subsection}{\numberline {4.5.5}Heap-Fragmentierung}{42}{subsection*.60}%
+\contentsline {section}{\numberline {4.6}Kontrollierte Variablen}{43}{section*.61}%
+\contentsline {subsection}{\numberline {4.6.1}Hardware/ CPU-Frequenz}{43}{subsection*.62}%
+\contentsline {subsection}{\numberline {4.6.2}Compiler und Werkzeugkette}{43}{subsection*.63}%
+\contentsline {subsection}{\numberline {4.6.3}Compiler optimierung}{43}{subsection*.64}%
+\contentsline {subsection}{\numberline {4.6.4}Zephyr Version}{43}{subsection*.65}%
+\contentsline {subsection}{\numberline {4.6.5}Build-Konfiguration (Sockel)}{44}{subsection*.66}%
+\contentsline {subsection}{\numberline {4.6.6}Messmechanismus (Timing/ Statistik)}{44}{subsection*.67}%
+\contentsline {subsection}{\numberline {4.6.7}Anzahl der Messungen}{44}{subsection*.68}%
+\contentsline {section}{\numberline {4.7}Ablauf einer Messung}{44}{section*.69}%
+\contentsline {chapter}{\numberline {5}Benchmark-Design}{48}{chapter*.102}%
+\contentsline {section}{\numberline {5.1}Kontextwechsel-Latenz}{48}{section*.103}%
+\contentsline {section}{\numberline {5.2}Interrupt-Latenz}{49}{section*.117}%
+\contentsline {section}{\numberline {5.3}Timer-Jitter}{50}{section*.131}%
+\contentsline {section}{\numberline {5.4}Heap-Allokationsgeschwindigkeit}{51}{section*.154}%
+\contentsline {section}{\numberline {5.5}Heap-Fragmentierung}{52}{section*.177}%
+\contentsline {chapter}{\numberline {6}Implementierung}{54}{chapter*.204}%
+\contentsline {section}{\numberline {6.1}Projektstruktur}{54}{section*.205}%
+\contentsline {section}{\numberline {6.2}Benchmark-Infrastruktur}{55}{section*.206}%
+\contentsline {subsection}{\numberline {6.2.1}Warum eine eigene Bibliothek?}{55}{subsection*.207}%
+\contentsline {subsection}{\numberline {6.2.2}Die {\"o}ffentliche Schnittstelle}{56}{subsection*.208}%
+\contentsline {subsection}{\numberline {6.2.3}Zeitbasis und Kalibrierung des Messaufwands}{58}{subsection*.247}%
+\contentsline {subsection}{\numberline {6.2.4}Laufende Statistik}{58}{subsection*.258}%
+\contentsline {subsection}{\numberline {6.2.5}Ergebnisausgabe als CSV}{60}{subsection*.259}%
+\contentsline {subsection}{\numberline {6.2.6}Parametrisierung {\"u}ber Kconfig}{61}{subsection*.276}%
+\contentsline {section}{\numberline {6.3}Konfigurationen: Minimal / Logging / (IoT-Stack)}{62}{section*.277}%
+\contentsline {subsection}{\numberline {6.3.1}Gemeinsame Basis}{62}{subsection*.278}%
+\contentsline {subsection}{\numberline {6.3.2}Minimal-Konfiguration}{63}{subsection*.300}%
+\contentsline {subsection}{\numberline {6.3.3}Logging-Konfiguration}{65}{subsection*.312}%
+\contentsline {subsection}{\numberline {6.3.4}IoT-Stack-Konfiguration}{67}{subsection*.321}%
+\contentsline {section}{\numberline {6.4}Realistische Anwendung}{71}{section*.347}%
+\contentsline {subsection}{\numberline {6.4.1}Zweck und Sensor-Simulation}{71}{subsection*.348}%
+\contentsline {subsection}{\numberline {6.4.2}CoAP-Server {\"u}ber DTLS/ PSK}{71}{subsection*.349}%
+\contentsline {subsection}{\numberline {6.4.3}Firmware-Update {\"u}ber Sysbuild, MCUboot und MCUmgr}{72}{subsection*.350}%
+\contentsline {chapter}{\numberline {7}Messergebnisse}{73}{chapter*.351}%
+\contentsline {chapter}{\numberline {8}Diskussion}{74}{chapter*.352}%
+\contentsline {chapter}{\numberline {9}Validit{\"a}t}{75}{chapter*.353}%
+\contentsline {section}{\numberline {9.1}Interne Validit{\"a}t}{75}{section*.354}%
+\contentsline {section}{\numberline {9.2}Externe Validit{\"a}t}{75}{section*.355}%
+\contentsline {section}{\numberline {9.3}Messbedingter Zusatzaufwand}{76}{section*.356}%
+\contentsline {section}{\numberline {9.4}Limitierungen}{76}{section*.357}%
+\contentsline {chapter}{\numberline {10}Fazit}{77}{chapter*.358}%
+\contentsline {chapter}{\numberline {11}Ausblick}{78}{chapter*.359}%
