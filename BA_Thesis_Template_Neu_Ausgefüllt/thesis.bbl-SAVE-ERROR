@@ -1,0 +1,1520 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Altoumi2025}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=8a015a4e64e73160ea8c64405970eb35}{%
+           family={Altoumi},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=36965e1e2a176233ff7852a9627b66ca}{%
+           family={Ahmed},
+           familyi={A\bibinitperiod},
+           given={N.\bibnamedelimi A.\bibnamedelimi S.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{fullhash}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{fullhashraw}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{bibnamehash}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{authorbibnamehash}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{authornamehash}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{authorfullhash}{7ee27f4b69f862c01dd0f20a607a8575}
+      \strng{authorfullhashraw}{7ee27f4b69f862c01dd0f20a607a8575}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2025 IEEE International Multi-Conference on Smart Systems \& Green Process (IMC-SSGP)}
+      \field{title}{Real-Time Operating Systems ({RTOS}) for {IoT} Applications: A Comprehensive Comparative Study}
+      \field{year}{2025}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/IMC-SSGP67001.2025.11474079
+      \endverb
+    \endentry
+    \entry{Das2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8180fa01ac2764c04e8289b308e9f75b}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Lyla\bibnamedelima B.},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson India Education Services}%
+      }
+      \strng{namehash}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{fullhash}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{fullhashraw}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{bibnamehash}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{authorbibnamehash}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{authornamehash}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{authorfullhash}{8180fa01ac2764c04e8289b308e9f75b}
+      \strng{authorfullhashraw}{8180fa01ac2764c04e8289b308e9f75b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Embedded Systems: An Integrated Approach}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{Jaskani2019}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=331e15a84c9bc48ec2a16af842869bd4}{%
+           family={Jaskani},
+           familyi={J\bibinitperiod},
+           given={F.\bibnamedelimi H.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d7ed0ccc59653b20db5548afd23d4d9f}{%
+           family={Manzoor},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f0061295f839b7cad165edee0d7404d9}{%
+           family={Amin},
+           familyi={A\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=77d3e230ceb5d8779d6e7e46adfb7f55}{%
+           family={Asif},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6448deafb71577dda681f23628d0247e}{%
+           family={Irfan},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{334457eeba5d9abc8bae6595f3f9b4d4}
+      \strng{fullhash}{33908c2a2faeb9c60d3d89a112f73a48}
+      \strng{fullhashraw}{33908c2a2faeb9c60d3d89a112f73a48}
+      \strng{bibnamehash}{334457eeba5d9abc8bae6595f3f9b4d4}
+      \strng{authorbibnamehash}{334457eeba5d9abc8bae6595f3f9b4d4}
+      \strng{authornamehash}{334457eeba5d9abc8bae6595f3f9b4d4}
+      \strng{authorfullhash}{33908c2a2faeb9c60d3d89a112f73a48}
+      \strng{authorfullhashraw}{33908c2a2faeb9c60d3d89a112f73a48}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eid}{e4}
+      \field{journaltitle}{EAI Endorsed Transactions on Creative Technologies}
+      \field{number}{18}
+      \field{title}{An Investigation on Several Operating Systems for Internet of Things}
+      \field{volume}{6}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.4108/eai.13-7-2018.160386
+      \endverb
+    \endentry
+    \entry{LaplanteOvaska2012}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=ec2eb990fdebfd88bd6e3a9670c5ad7c}{%
+           family={Laplante},
+           familyi={L\bibinitperiod},
+           given={Phillip\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=774695230526436840934f089cfbecdd}{%
+           family={Ovaska},
+           familyi={O\bibinitperiod},
+           given={Seppo\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-IEEE Press}%
+      }
+      \strng{namehash}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{fullhash}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{fullhashraw}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{bibnamehash}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{authorbibnamehash}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{authornamehash}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{authorfullhash}{9e9046028abe19d9e174da01833c3bd7}
+      \strng{authorfullhashraw}{9e9046028abe19d9e174da01833c3bd7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Real-Time Systems Design and Analysis: Tools for the Practitioner}
+      \field{year}{2012}
+      \true{nocite}
+    \endentry
+    \entry{LeeKimKim2018}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=77d95c76bcf77b60043e1b5a7fa0f43d}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Y.-K.},
+           giveni={Y\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=03f38c879ca0bc9f1dcbada69ea0519a}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4cc7b98ac0d3f407828d3de1834f69f2}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={J.-N.},
+           giveni={J\bibinithyphendelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{fullhash}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{fullhashraw}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{bibnamehash}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{authorbibnamehash}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{authornamehash}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{authorfullhash}{450bb9ca942079307043cfc1c602c4d8}
+      \strng{authorfullhashraw}{450bb9ca942079307043cfc1c602c4d8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Conference on Information and Communication Technology Convergence (ICTC)}
+      \field{title}{Implementation of {TLS} and {DTLS} on {Zephyr OS} for {IoT} Devices}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{1292\bibrangedash 1294}
+      \range{pages}{3}
+    \endentry
+    \entry{LeotescuVlad2018}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=4d93b823fcc3ee4f1a23970996d961b9}{%
+           family={Leotescu},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8d2e1f33851487cc8f472dcf6d852e85}{%
+           family={Vlad},
+           familyi={V\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {NXP Semiconductors}%
+      }
+      \strng{namehash}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{fullhash}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{fullhashraw}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{bibnamehash}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{authorbibnamehash}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{authornamehash}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{authorfullhash}{c46bf041686bca2f13bffac67be55eb7}
+      \strng{authorfullhashraw}{c46bf041686bca2f13bffac67be55eb7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Performance Analysis Using {NXP}'s {i.MX RT1050} Crossover Processor and the {Zephyr OS}}
+      \field{type}{techreport}
+      \field{year}{2018}
+      \true{nocite}
+    \endentry
+    \entry{Liu2000}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b773ff3e439d6c7daa7f6d5594f8f86c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jane\bibnamedelimb W.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall}%
+      }
+      \strng{namehash}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{fullhash}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{fullhashraw}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{bibnamehash}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{authorbibnamehash}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{authornamehash}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{authorfullhash}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \strng{authorfullhashraw}{b773ff3e439d6c7daa7f6d5594f8f86c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Real-Time Systems}
+      \field{year}{2000}
+      \true{nocite}
+    \endentry
+    \entry{Silva2019}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=a8b80df7bc3a92b822e4036080673d3e}{%
+           family={Silva},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3f6ee667281b6b8cbd597bc43317b7b3}{%
+           family={Cerdeira},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bb2b5ab0b47591d9663fdaaf118db3a4}{%
+           family={Pinto},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=145502e94bad80949d2ef6b5fb061b3c}{%
+           family={Gomes},
+           familyi={G\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c48c95adbbdcf0b857c7408ae56f649}
+      \strng{fullhash}{fb32d113bf14801d9309dcb76826efb7}
+      \strng{fullhashraw}{fb32d113bf14801d9309dcb76826efb7}
+      \strng{bibnamehash}{8c48c95adbbdcf0b857c7408ae56f649}
+      \strng{authorbibnamehash}{8c48c95adbbdcf0b857c7408ae56f649}
+      \strng{authornamehash}{8c48c95adbbdcf0b857c7408ae56f649}
+      \strng{authorfullhash}{fb32d113bf14801d9309dcb76826efb7}
+      \strng{authorfullhashraw}{fb32d113bf14801d9309dcb76826efb7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{number}{6}
+      \field{title}{Operating Systems for Internet of Things Low-End Devices: Analysis and Benchmarking}
+      \field{volume}{6}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{10375\bibrangedash 10383}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/JIOT.2019.2939008
+      \endverb
+    \endentry
+    \entry{Welford1962}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fb43003f9f469d35fb8470d7423e1b97}{%
+           family={Welford},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi P.},
+           giveni={B\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{fullhash}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{fullhashraw}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{bibnamehash}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{authorbibnamehash}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{authornamehash}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{authorfullhash}{fb43003f9f469d35fb8470d7423e1b97}
+      \strng{authorfullhashraw}{fb43003f9f469d35fb8470d7423e1b97}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Technometrics}
+      \field{number}{3}
+      \field{title}{Note on a Method for Calculating Corrected Sums of Squares and Products}
+      \field{volume}{4}
+      \field{year}{1962}
+      \true{nocite}
+      \field{pages}{419\bibrangedash 420}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1080/00401706.1962.10490022
+      \endverb
+    \endentry
+    \entry{Zhang2026}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=ee30f2412a6be1672063a1e76bfc3bab}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=11b8d52f1d6c2c3fcdf0ecc89c91583f}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=904535fdd01cd5c24111d1820ecfda75}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=19890a9834a20e9db9f4b51471e48b3f}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5697a66ca4254743e8f12262bf8d99cc}{%
+           family={Wen},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=67a92a8531b5c52d32199845c6c8145c}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4558bac6d76ca5e44bdfd12e334aea2c}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{6686b24908880b39fcfb79dcd1abc3fe}
+      \strng{fullhash}{f6b6b79612a2f9787859d9fc90ac141e}
+      \strng{fullhashraw}{f6b6b79612a2f9787859d9fc90ac141e}
+      \strng{bibnamehash}{6686b24908880b39fcfb79dcd1abc3fe}
+      \strng{authorbibnamehash}{6686b24908880b39fcfb79dcd1abc3fe}
+      \strng{authornamehash}{6686b24908880b39fcfb79dcd1abc3fe}
+      \strng{authorfullhash}{f6b6b79612a2f9787859d9fc90ac141e}
+      \strng{authorfullhashraw}{f6b6b79612a2f9787859d9fc90ac141e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}
+      \field{number}{1}
+      \field{title}{Paddle Lite on Zephyr: Deploying {AI} Models in {RTOS} for Inference Acceleration}
+      \field{volume}{45}
+      \field{year}{2026}
+      \true{nocite}
+      \field{pages}{260\bibrangedash 265}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/TCAD.2025.3581867
+      \endverb
+    \endentry
+    \entry{RFC4944}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=68ad5b70303dcaede43432c52682d2fe}{%
+           family={Montenegro},
+           familyi={M\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7d0d896a0aaf15f81f83204d874eb6c9}{%
+           family={Kushalnagar},
+           familyi={K\bibinitperiod},
+           given={Nandakishore},
+           giveni={N\bibinitperiod}}}%
+        {{hash=6cfb5d2608616bce21708f853f01106e}{%
+           family={Hui},
+           familyi={H\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=476b9e41520047f68ef13e32a0872165}{%
+           family={Culler},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{ab14eba0f3b81d67f2ce07c02bfed46c}
+      \strng{fullhash}{b38d75c57288f92fcdb9a0a748ffc227}
+      \strng{fullhashraw}{b38d75c57288f92fcdb9a0a748ffc227}
+      \strng{bibnamehash}{ab14eba0f3b81d67f2ce07c02bfed46c}
+      \strng{authorbibnamehash}{ab14eba0f3b81d67f2ce07c02bfed46c}
+      \strng{authornamehash}{ab14eba0f3b81d67f2ce07c02bfed46c}
+      \strng{authorfullhash}{b38d75c57288f92fcdb9a0a748ffc227}
+      \strng{authorfullhashraw}{b38d75c57288f92fcdb9a0a748ffc227}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{4944}
+      \field{title}{Transmission of {IPv6} Packets over {IEEE 802.15.4} Networks}
+      \field{type}{RFC}
+      \field{year}{2007}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.17487/RFC4944
+      \endverb
+    \endentry
+    \entry{RFC6347}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=fbed942ce41bbd27cb1ee6a803bdf541}{%
+           family={Rescorla},
+           familyi={R\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=29dcce65392670f1cbc60ca35fcd5573}{%
+           family={Modadugu},
+           familyi={M\bibinitperiod},
+           given={Nagendra},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{fullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{fullhashraw}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{bibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorbibnamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authornamehash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorfullhash}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \strng{authorfullhashraw}{5ed44262ce2f55adbbcc996ecc88fd3a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{6347}
+      \field{title}{Datagram Transport Layer Security Version 1.2}
+      \field{type}{RFC}
+      \field{year}{2012}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.17487/RFC6347
+      \endverb
+    \endentry
+    \entry{RFC7252}{report}{}{}
+      \name{author}{3}{}{%
+        {{hash=ed98cd7a76bd516b3da09ae8534c32a0}{%
+           family={Shelby},
+           familyi={S\bibinitperiod},
+           given={Zach},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9df875ea8cdea272d47bed2f6b8c68df}{%
+           family={Hartke},
+           familyi={H\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7fe2f98d5101608d1a28002bcb59c6d0}{%
+           family={Bormann},
+           familyi={B\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{fullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{fullhashraw}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{bibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorbibnamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authornamehash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorfullhash}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \strng{authorfullhashraw}{d3b77bed71a92bc7ba4b5c06c8a42240}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{7252}
+      \field{title}{The Constrained Application Protocol ({CoAP})}
+      \field{type}{RFC}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.17487/RFC7252
+      \endverb
+    \endentry
+    \entry{RFC7925}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=20e6aaebacdb6f6a24fdadf59984a5a6}{%
+           family={Tschofenig},
+           familyi={T\bibinitperiod},
+           given={Hannes},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c05b73de3d1563fb9e67e579b4a8f72b}{%
+           family={Fossati},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Internet Engineering Task Force}%
+      }
+      \strng{namehash}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{fullhash}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{fullhashraw}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{bibnamehash}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{authorbibnamehash}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{authornamehash}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{authorfullhash}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \strng{authorfullhashraw}{72587a7a6c34b7b34dd5c4dc8069696e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{7925}
+      \field{title}{Transport Layer Security ({TLS})/Datagram Transport Layer Security ({DTLS}) Profiles for the Internet of Things}
+      \field{type}{RFC}
+      \field{year}{2016}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.17487/RFC7925
+      \endverb
+    \endentry
+    \entry{WeissteinSampleVariance}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=819197bfeff32a3f58d49b2a3eb0a580}{%
+           family={Weisstein},
+           familyi={W\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{fullhash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{fullhashraw}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{bibnamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorbibnamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authornamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorfullhash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorfullhashraw}{819197bfeff32a3f58d49b2a3eb0a580}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{MathWorld---A Wolfram Web Resource}
+      \field{title}{Sample Variance}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://mathworld.wolfram.com/SampleVariance.html
+      \endverb
+      \verb{url}
+      \verb https://mathworld.wolfram.com/SampleVariance.html
+      \endverb
+    \endentry
+    \entry{WeissteinStandardError}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=819197bfeff32a3f58d49b2a3eb0a580}{%
+           family={Weisstein},
+           familyi={W\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{fullhash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{fullhashraw}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{bibnamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorbibnamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authornamehash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorfullhash}{819197bfeff32a3f58d49b2a3eb0a580}
+      \strng{authorfullhashraw}{819197bfeff32a3f58d49b2a3eb0a580}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{subtitle}{MathWorld---A Wolfram Web Resource}
+      \field{title}{Standard Error}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://mathworld.wolfram.com/StandardError.html
+      \endverb
+      \verb{url}
+      \verb https://mathworld.wolfram.com/StandardError.html
+      \endverb
+    \endentry
+    \entry{NordicNRF52840}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=af5e4455ba6301bed1741b8796304f18}{%
+           family={{Nordic Semiconductor}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{af5e4455ba6301bed1741b8796304f18}
+      \strng{fullhash}{af5e4455ba6301bed1741b8796304f18}
+      \strng{fullhashraw}{af5e4455ba6301bed1741b8796304f18}
+      \strng{bibnamehash}{af5e4455ba6301bed1741b8796304f18}
+      \strng{authorbibnamehash}{af5e4455ba6301bed1741b8796304f18}
+      \strng{authornamehash}{af5e4455ba6301bed1741b8796304f18}
+      \strng{authorfullhash}{af5e4455ba6301bed1741b8796304f18}
+      \strng{authorfullhashraw}{af5e4455ba6301bed1741b8796304f18}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{nRF52840} Product Specification}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{version}{1.11}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.nordicsemi.com/bundle/ps_nrf52840/page/keyfeatures_html5.html
+      \endverb
+      \verb{url}
+      \verb https://docs.nordicsemi.com/bundle/ps_nrf52840/page/keyfeatures_html5.html
+      \endverb
+    \endentry
+    \entry{ZephyrSemaphores2022}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Semaphores}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/synchronization/semaphores.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/synchronization/semaphores.html
+      \endverb
+    \endentry
+    \entry{ZephyrCLanguage2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{C Language Support}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/develop/languages/c/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/develop/languages/c/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrCoAP2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{CoAP}}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/connectivity/networking/api/coap.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/connectivity/networking/api/coap.html
+      \endverb
+    \endentry
+    \entry{ZephyrExecutingTimeFunctions2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Executing Time Functions}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/timing_functions/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/timing_functions/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrWest2023}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{West ({Zephyr}'s Meta-Tool)}
+      \field{year}{2023}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/develop/west/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/develop/west/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrAbout2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{About the {Zephyr Project}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.zephyrproject.org/learn-about/
+      \endverb
+      \verb{url}
+      \verb https://www.zephyrproject.org/learn-about/
+      \endverb
+    \endentry
+    \entry{ZephyrBSDSockets2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{BSD} Sockets}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/connectivity/networking/api/sockets.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/connectivity/networking/api/sockets.html
+      \endverb
+    \endentry
+    \entry{ZephyrBuildSystem2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Build System ({CMake})}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/build/cmake/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/build/cmake/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrDFU2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Device Firmware Upgrade}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/services/device_mgmt/dfu.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/services/device_mgmt/dfu.html
+      \endverb
+    \endentry
+    \entry{ZephyrInterrupts2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{10}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Interrupts}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/interrupts.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/interrupts.html
+      \endverb
+    \endentry
+    \entry{ZephyrIntroduction2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Introduction}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/introduction/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/introduction/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrKernelTiming2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{12}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kernel Timing}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/timing/clocks.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/timing/clocks.html
+      \endverb
+    \endentry
+    \entry{ZephyrLogging2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{13}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Logging}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/services/logging/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/services/logging/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrMCUmgr2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{14}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{MCUmgr}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/services/device_mgmt/mcumgr.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/services/device_mgmt/mcumgr.html
+      \endverb
+    \endentry
+    \entry{ZephyrMemoryHeaps2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{15}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Memory Heaps}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/memory_management/heap.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/memory_management/heap.html
+      \endverb
+    \endentry
+    \entry{ZephyrNRFRTCTimer2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{16}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{nrf\_rtc\_timer.c}}
+      \field{titleaddon}{Quellcode}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/zephyrproject-rtos/zephyr/blob/v3.7.2/drivers/timer/nrf_rtc_timer.c
+      \endverb
+      \verb{url}
+      \verb https://github.com/zephyrproject-rtos/zephyr/blob/v3.7.2/drivers/timer/nrf_rtc_timer.c
+      \endverb
+    \endentry
+    \entry{ZephyrScheduling2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{17}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scheduling}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/scheduling/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/scheduling/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrKconfigSetting2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{18}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Setting {Kconfig} Configuration Values}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/build/kconfig/setting.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/build/kconfig/setting.html
+      \endverb
+    \endentry
+    \entry{ZephyrBenchmarks2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{19}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Benchmarks}
+      \field{titleaddon}{Quellcodeverzeichnis}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/zephyrproject-rtos/zephyr/tree/v3.7.2/tests/benchmarks
+      \endverb
+      \verb{url}
+      \verb https://github.com/zephyrproject-rtos/zephyr/tree/v3.7.2/tests/benchmarks
+      \endverb
+    \endentry
+    \entry{ZephyrLatencyMeasure2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{20}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Latency Measure Benchmark {README}}
+      \field{titleaddon}{Quellcode-Dokumentation}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://github.com/zephyrproject-rtos/zephyr/blob/v3.7.2/tests/benchmarks/latency_measure/README.rst
+      \endverb
+      \verb{url}
+      \verb https://github.com/zephyrproject-rtos/zephyr/blob/v3.7.2/tests/benchmarks/latency_measure/README.rst
+      \endverb
+    \endentry
+    \entry{ZephyrThreadProtocol2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{21}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Thread Protocol}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/connectivity/networking/api/thread.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/connectivity/networking/api/thread.html
+      \endverb
+    \endentry
+    \entry{ZephyrTimers2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{22}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Timers}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/timing/timers.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kernel/services/timing/timers.html
+      \endverb
+    \endentry
+    \entry{ZephyrApplicationDevelopment}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{23}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Application Development}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/develop/application/index.html
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/develop/application/index.html
+      \endverb
+    \endentry
+    \entry{ZephyrKconfigMbedtlsEnableHeap}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{24}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kconfig}: {MBEDTLS\_ENABLE\_HEAP}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_MBEDTLS_ENABLE_HEAP
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_MBEDTLS_ENABLE_HEAP
+      \endverb
+    \endentry
+    \entry{ZephyrKconfigMbedtlsHeapSize}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{25}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kconfig}: {MBEDTLS\_HEAP\_SIZE}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_MBEDTLS_HEAP_SIZE
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_MBEDTLS_HEAP_SIZE
+      \endverb
+    \endentry
+    \entry{ZephyrKconfigNetL2OpenThread}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{26}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kconfig}: {NET\_L2\_OPENTHREAD}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_NET_L2_OPENTHREAD
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_NET_L2_OPENTHREAD
+      \endverb
+    \endentry
+    \entry{ZephyrKconfigNetSocketsPosixNames}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{27}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kconfig}: {NET\_SOCKETS\_POSIX\_NAMES}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_NET_SOCKETS_POSIX_NAMES
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_NET_SOCKETS_POSIX_NAMES
+      \endverb
+    \endentry
+    \entry{ZephyrKconfigOpenThreadManualStart}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=10f74321565e3536f33df54f6008729a}{%
+           family={{Zephyr Project}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{fullhashraw}{10f74321565e3536f33df54f6008729a}
+      \strng{bibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorbibnamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authornamehash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhash}{10f74321565e3536f33df54f6008729a}
+      \strng{authorfullhashraw}{10f74321565e3536f33df54f6008729a}
+      \field{extraname}{28}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Kconfig}: {OPENTHREAD\_MANUAL\_START}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_OPENTHREAD_MANUAL_START
+      \endverb
+      \verb{url}
+      \verb https://docs.zephyrproject.org/3.7.0/kconfig.html#CONFIG_OPENTHREAD_MANUAL_START
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
