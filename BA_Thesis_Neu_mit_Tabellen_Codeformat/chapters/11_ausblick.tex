@@ -1,0 +1,10 @@
+\chapter{Ausblick}
+\label{ch:ausblick}
+
+Zuk{\"u}nftige Untersuchungen sollten jede Messzelle {\"u}ber mehrere unabh{\"a}ngige Build-, Flash- und Neustartvorg{\"a}nge wiederholen. Dadurch k{\"o}nnten Schwankungen zwischen Firmware-Layouts und Bootvorg{\"a}ngen bestimmt werden. Dar{\"u}ber hinaus k{\"o}nnen somit Konfidenzintervalle auf der Grundlage von unabh{\"a}ngigen Messreihen berechnet werden. Die Speicherung oder {\"U}bertragung der Einzelwerte w{\"u}rde zudem die Analyse von Quantilen und Ausrei{\ss}ern erm{\"o}glichen.
+
+F{\"u}r Logging und IoT sollten verschiedene aktive Laststufen erg{\"a}nzt werden. Dazu geh{\"o}ren unterschiedliche Logging-Raten, ein aktiver OpenThread-Netzwerkbeitritt, CoAP-Anfragen und komplette und wiederaufgenommene DTLS-Handshakes. Dadurch k{\"o}nnten die Kosten der Bereitstellung eines Subsystems von den Kosten seiner Nutzung unterschieden werden.
+
+Die Interruptmessung k{\"o}nnte durch eine kontrollierte Platzierung der Messfunktionen oder eine Analyse der ELF- und Map-Dateien erweitert werden. F{\"u}r den Timer-Jitter w{\"a}re eine h{\"o}her aufl{\"o}sende Zeitbasis oder eine externe Messung mit GPIO und Logikanalysator geeignet.
+
+Zuletzt sollte der Versuchsaufbau auf weitere Mikrocontrollerarchitekturen, Zephyr-Versionen und Subsysteme {\"u}bertragen werden. Ein Vergleich mit anderen RTOS wie RIOT oder FreeRTOS w{\"a}re vor allem dann aussagekr{\"a}ftig, wenn Hardware, Compileroptionen, Anwendung und Messpunktdefinitionen f{\"u}r alle Systeme vereinheitlicht werden.

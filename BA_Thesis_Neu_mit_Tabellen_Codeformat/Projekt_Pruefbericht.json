@@ -1,0 +1,39 @@
+{
+  "source": "BA Final LaTeX (2).docx",
+  "template_files": "new uploaded thesis.tex, MastersDoctoralThesis.cls, frontmatter and chapter files",
+  "chapter_files": [
+    "chapters/00_frontmatter",
+    "chapters/00_abkuerzungsverzeichnis",
+    "chapters/01_einleitung",
+    "chapters/02_grundlagen",
+    "chapters/03_verwandte_arbeiten",
+    "chapters/04_methodik_versuchsaufbau",
+    "chapters/05_benchmark_design",
+    "chapters/06_implementierung",
+    "chapters/07_messergebnisse",
+    "chapters/08_diskussion",
+    "chapters/09_validitaet",
+    "chapters/10_fazit",
+    "chapters/11_ausblick"
+  ],
+  "captions": [
+    "Messaufbau der Kontextwechselvarianten",
+    "Ergebnisse des Selbsttests mit einer Sollzeit von 100 \\textmu{}s",
+    "Kontextwechsel-Latenzen der drei Konfigurationsprofile",
+    "Interrupt-Latenzen der drei Konfigurationsprofile",
+    "Timer-Perioden der drei Konfigurationsprofile",
+    "Laufzeiten der Heap-Allokation und Heap-Freigabe",
+    "Ergebnisse des Heap-Fragmentierungstests",
+    "Statischer Flash- und RAM-Bedarf der Referenzbauten"
+  ],
+  "caption_count": 8,
+  "labels": 20,
+  "refs": 16,
+  "class_sha256": "3fa2008b6cceb02c6d0bdc5102cbd1c3a450a0c2dabac8d665c237b52b97b9f5",
+  "uploaded_class_sha256": "3fa2008b6cceb02c6d0bdc5102cbd1c3a450a0c2dabac8d665c237b52b97b9f5",
+  "issues": [],
+  "code_format_change": {
+    "fileinline_to_codeinline_replacements": 457,
+    "remaining_fileinline_usages": 0
+  }
+}

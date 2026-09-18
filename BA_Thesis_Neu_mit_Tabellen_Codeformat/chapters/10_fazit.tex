@@ -1,0 +1,8 @@
+\chapter{Fazit}
+\label{ch:fazit}
+
+Die Arbeit untersuchte, wie sich verschiedene Zephyr-Konfigurationen auf das Laufzeitverhalten und den Speicherbedarf eines ressourcenbeschr{\"a}nkten Mikrocontrollers auswirken. Daf{\"u}r wurden ein Minimalprofil, ein Logging-Profil und ein IoT-Profil mit OpenThread, CoAP und DTLS/ PSK auf demselben nRF52840 DK verglichen.
+
+Die Ergebnisse zeigen, dass weitere Subsysteme vor allem den statischen Speicherbedarf beeinflussen. Logging braucht im Vergleich zu Minimal 9304 Byte mehr Flash und 2120 Byte mehr RAM. Beim IoT-Profil steigen diese Werte um 165.612 Byte Flash und 71.448 Byte RAM. Die gemessenen Kontextwechselzeiten erh{\"o}hen sich dabei nur um ungef{\"a}hr 5 bis 8 \%. Heap-Operationen ver{\"a}ndern sich nur gering, w{\"a}hrend die Interrupt-Ergebnisse keine monotone Entwicklung zeigen. Beim Timer-Jitter war innerhalb der verf{\"u}gbaren RTC-Aufl{\"o}sung kein Profilunterschied sichtbar.
+
+Die Forschungsfrage l{\"a}sst sich damit folgenderma{\ss}en beantworten: Der Einfluss der Zephyr-Konfiguration zeigt sich auf der untersuchten Hardware besonders deutlich beim Speicherbedarf. Der Einfluss auf kurze, isolierte Kerneloperationen ist hierbei geringer und pfadabh{\"a}ngig und kann von {\"A}nderungen des Bin{\"a}rlayouts {\"u}berlagert werden. Eine Konfiguration sollte daher nicht anhand einer einzelnen Laufzeitmetrik beurteilt werden. F{\"u}r ressourcenbeschr{\"a}nkte Systeme m{\"u}ssen Funktionsumfang, Heap- und Stackreservierungen, reale Laufzeitlast und die verf{\"u}gbare Messaufl{\"o}sung zusammen betrachtet werden.

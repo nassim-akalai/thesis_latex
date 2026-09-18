@@ -1,0 +1,140 @@
+\chapter{Messergebnisse}
+\label{ch:messergebnisse}
+
+Dieses Kapitel vergleicht die Messergebnisse der drei untersuchten Konfigurationsprofile Minimal, Logging und IoT-Stack. Jede zeitbezogene Messreihe beinhaltet dabei 1000 ausgewertete Messwerte nach zehn verworfenen Aufw{\"a}rmdurchl{\"a}ufen. Die DWT-basierten Ergebnisse werden in CPU-Zyklen bei einer Taktfrequenz von 64 MHz angegeben. Ein CPU-Zyklus entspricht damit 15,625 ns. Der Timer-Benchmark benutzt den RTC-Systemtimer mit einer Frequenz von 32768 Hz.
+
+Vor den eigentlichen Benchmarks wurde in jedem Profil ein Selbsttest mit einer vorgesehenen Wartezeit von 100 \textmu{}s durchgef{\"u}hrt. Die Mittelwerte lagen zwischen 6432,01 und 6435,96 CPU-Zyklen bzw. zwischen 100,50 und 100,56 \textmu{}s. Damit wurde das in Kapitel 5 festgelegte Abnahmekriterium in allen drei Profilen erf{\"u}llt.
+
+Tabelle~\ref{tab:selbsttest-100us} fasst den im Text dokumentierten Wertebereich der drei Selbsttests zusammen. Da die Ausgangsdaten an dieser Stelle nur den kleinsten und gr{\"o}{\ss}ten Profilmittelwert ausweisen, werden keine nicht belegten Einzelwerte je Profil erg{\"a}nzt.
+
+\begin{table}[H]
+\centering
+\caption{Ergebnisse des Selbsttests mit einer Sollzeit von 100 \textmu{}s}
+\label{tab:selbsttest-100us}
+\begin{tabular}{lrr}
+\toprule
+Auswertung & Mittelwert in CPU-Zyklen & Mittelwert in \textmu{}s \\
+\midrule
+Kleinster Profilmittelwert & 6432,01 & 100,50 \\
+Gr{\"o}{\ss}ter Profilmittelwert & 6435,96 & 100,56 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Die in Tabelle~\ref{tab:selbsttest-100us} dargestellte Spannweite betr{\"a}gt 3,95 CPU-Zyklen beziehungsweise 0,06 \textmu{}s. Beide Grenzwerte liegen damit nahe an der vorgegebenen Sollzeit und best{\"a}tigen das definierte Abnahmekriterium.
+
+\section{Kontextwechsel}
+F{\"u}r die Kontextwechselmessung wurden zwei Varianten untersucht. Tabelle~\ref{tab:kontextwechsel-profile} vergleicht ihre mittleren Latenzen f{\"u}r alle drei Konfigurationsprofile. Untersucht wurden die Aktivierung eines h{\"o}herprioren Threads durch die Freigabe eines Semaphors und die kooperative {\"U}bergabe zwischen zwei gleichprioren Threads durch \lstinline[style=codeinline]|k_yield()|.
+
+\begin{longtable}{p{0.313\linewidth}p{0.313\linewidth}p{0.313\linewidth}}
+\caption{Kontextwechsel-Latenzen der drei Konfigurationsprofile}\label{tab:kontextwechsel-profile}\\
+\toprule
+\textbf{Profil} & \textbf{Semaphore-Weckung} & \textbf{Kooperatives Yield} \\
+\midrule
+Minimal & 407,86 Zyklen & 228,00 Zyklen \\
+Logging & 439,99 Zyklen & 240,00 Zyklen \\
+IoT-Stack & 428,96 Zyklen & 240,99 Zyklen \\
+\bottomrule
+\end{longtable}
+
+Tabelle~\ref{tab:kontextwechsel-profile} zeigt f{\"u}r beide Varianten einen Anstieg gegen{\"u}ber dem Minimalprofil, wobei die Semaphore-Weckung in allen Profilen langsamer als das kooperative Yield ist.
+
+Die Semaphore-Weckung braucht im Minimalprofil durchschnittlich 407,86 Zyklen bzw. 6,37 \textmu{}s. Im Logging-Profil steigt der Mittelwert auf 439,99 Zyklen bzw. 6,87 \textmu{}s. Dies entspricht einer Zunahme um 7,88 \%. Das IoT-Profil erreicht dabei 428,96 Zyklen bzw. 6,70 \textmu{}s und liegt damit 5,17 \% {\"u}ber dem Minimalprofil.
+
+Beim kooperativen Yield betr{\"a}gt der Mittelwert im Minimalprofil 228,00 Zyklen beziehungsweise 3,56 \textmu{}s. Logging braucht 240,00 Zyklen und der IoT-Stack 240,99 Zyklen. Im Vergleich zum Minimalprofil entsprechen diese Werte Zunahmen um 5,26 \% bzw. 5,70 \%.
+
+\section{Interrupt-Latenz}
+Die Interrupt-Latenz wurde vom Setzen der NVIC-Anforderung bis zum ersten Zeitstempel im C-Handler gemessen. Tabelle~\ref{tab:interrupt-profile} stellt Minimum, Maximum, Mittelwert und Standardabweichung der drei Profile gegen{\"u}ber.
+
+\begin{longtable}{p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}p{0.188\linewidth}}
+\caption{Interrupt-Latenzen der drei Konfigurationsprofile}\label{tab:interrupt-profile}\\
+\toprule
+\textbf{Profil} & \textbf{Minimum} & \textbf{Maximum} & \textbf{Mittelwert} & \textbf{Standardabweichung} \\
+\midrule
+Minimal & 41 & 47 & 46,99 & 0,19 \\
+Logging & 38 & 38 & 38,00 & 0,00 \\
+IoT-Stack & 37 & 45 & 44,94 & 0,56 \\
+\bottomrule
+\end{longtable}
+Wie Tabelle~\ref{tab:interrupt-profile} zeigt, besitzt das Logging-Profil den niedrigsten und zugleich konstanten Messwert; das Minimal- und IoT-Profil weisen dagegen eine kleine Streuung auf.
+
+Das Minimalprofil erreicht im Mittel 46,99 Zyklen bzw. 0,734 \textmu{}s. Beim Logging-Profil wurden dabei 38,00 Zyklen bzw. 0,594 \textmu{}s und beim IoT-Profil 44,94 Zyklen bzw. 0,702 \textmu{}s gemessen. Logging liegt damit 19,13 \% und der IoT-Stack 4,36 \% unter dem Minimalprofil. Die Ursachen dieser nicht monotonen Entwicklung werden in Kapitel 8 diskutiert.
+
+\section{Timer-Jitter}
+F{\"u}r eine angeforderte Periode von 10 ms ergibt sich bei einer RTC-Frequenz von 32768 Hz ein Sollwert von 328 Systemtimerzyklen. Ein RTC-Zyklus entspricht dabei ungef{\"a}hr 30,52 \textmu{}s. Tabelle~\ref{tab:timer-perioden-profile} zeigt die gemessenen Perioden aller drei Profile.
+
+\begin{table}[H]
+\centering
+\caption{Timer-Perioden der drei Konfigurationsprofile}
+\label{tab:timer-perioden-profile}
+\begin{tabular}{lrrr}
+\toprule
+Profil & Mittelwert in RTC-Zyklen & Standardabweichung & Periodendauer in ms \\
+\midrule
+Minimal & 328,00 & 0,00 & 10,0098 \\
+Logging & 328,00 & 0,00 & 10,0098 \\
+IoT-Stack & 328,00 & 0,00 & 10,0098 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Wie Tabelle~\ref{tab:timer-perioden-profile} verdeutlicht, wurden in allen drei Profilen f{\"u}r mehrere 1000 Perioden jeweils genau 328 RTC-Zyklen gemessen. Innerhalb der verf{\"u}gbaren RTC-Aufl{\"o}sung war damit kein Jitter und kein Unterschied zwischen den Konfigurationsprofilen sichtbar.
+
+\section{Heap-Allokationsgeschwindigkeit}
+Es wurden die Anforderung und die anschlie{\ss}ende Freigabe eines 64-Byte-Blocks aus dem Zephyr-Systemheap gemessen. Tabelle~\ref{tab:heap-laufzeiten} stellt die mittleren Laufzeiten beider Operationen gegen{\"u}ber.
+
+\begin{longtable}{p{0.313\linewidth}p{0.313\linewidth}p{0.313\linewidth}}
+\caption{Laufzeiten der Heap-Allokation und Heap-Freigabe}\label{tab:heap-laufzeiten}\\
+\toprule
+\textbf{Profil} & \textbf{Allokation} & \textbf{Freigabe} \\
+\midrule
+Minimal & 518,71 Zyklen & 312,82 Zyklen \\
+Logging & 496,03 Zyklen & 319,02 Zyklen \\
+IoT-Stack & 521,78 Zyklen & 318,99 Zyklen \\
+\bottomrule
+\end{longtable}
+
+Tabelle~\ref{tab:heap-laufzeiten} zeigt, dass die Unterschiede der Allokation und Freigabe zwischen den Profilen klein und nicht monoton sind.
+
+Die mittlere Allokationszeit liegt hierbei zwischen 496,03 und 521,78 Zyklen bzw. zwischen 7,75 und 8,15 \textmu{}s. Im Vergleich zu Minimal ist der Logging-Wert 4,37 \% niedriger, w{\"a}hrend der IoT-Wert 0,59 \% h{\"o}her liegt. Die Freigabe braucht zwischen 312,82 und 319,02 Zyklen bzw. zwischen 4,89 und 4,98 \textmu{}s. Logging und IoT liegen dabei jeweils ungef{\"a}hr 2 \% {\"u}ber dem Minimalprofil.
+
+\section{Heap-Fragmentierung}
+Der Fragmentierungstest benutzt einen eigenen Heap mit einer Gr{\"o}{\ss}e von 8192 Byte. Dieser wird zuerst mit 128-Byte-Bl{\"o}cken gef{\"u}llt. Anschlie{\ss}end wird jeder zweite erfolgreich angeforderte Block freigegeben. Tabelle~\ref{tab:heap-fragmentierung} dokumentiert die vier Zust{\"a}nde des Tests.
+
+\begin{longtable}{p{0.235\linewidth}p{0.235\linewidth}p{0.235\linewidth}p{0.235\linewidth}}
+\caption{Ergebnisse des Heap-Fragmentierungstests}\label{tab:heap-fragmentierung}\\
+\toprule
+\textbf{Zustand} & \textbf{Angefordert} & \textbf{Nicht angefordert} & \textbf{Gr{\"o}{\ss}te erfolgreiche Probe} \\
+\midrule
+Leer & 0 Byte & 8192 Byte & -- \\
+Gef{\"u}llt & 7552 Byte & 640 Byte & 96 Byte \\
+Fragmentiert & 3712 Byte & 4480 Byte & 128 Byte \\
+Bereinigt & 0 Byte & 8192 Byte & -- \\
+\bottomrule
+\end{longtable}
+
+Wie Tabelle~\ref{tab:heap-fragmentierung} zeigt, steigt der nicht angeforderte Speicher nach dem Fragmentieren deutlich an, ohne dass ein entsprechend gro{\ss}er zusammenh{\"a}ngender Block verf{\"u}gbar wird.
+
+Nach dem Fragmentieren sind rechnerisch 4480 Byte nicht mehr angefordert. Dennoch kann nur ein zusammenh{\"a}ngender Block von 128 Byte erfolgreich angefordert werden. Die freien Bereiche sind daher {\"u}ber den Heap verteilt und k{\"o}nnen nicht zu einer gr{\"o}{\ss}eren zusammenh{\"a}ngenden Anforderung zusammengefasst werden. Alle drei Profile liefern gleiche Werte, weil der benutzte Heap nur dem Benchmark geh{\"o}rt und in jedem Profil dasselbe Allokationsmuster ausgef{\"u}hrt wird.
+
+Die Angaben \glqq{}angefordert\grqq{} und \glqq{}nicht angefordert\grqq{} beschreiben dabei nur die Nutzbytes der Benchmark-Anforderungen. Interne Metadaten, Ausrichtung und Rundung des Allokators werden dadurch nicht erfasst.
+
+\section{RAM-/ ROM-Bedarf}
+Der statische Speicherbedarf wurde anhand der jeweiligen BENCH\_NONE-Referenzbauten bestimmt. Diese enthalten den gemeinsamen Messsockel, jedoch keinen bestimmten Benchmarkcode. Tabelle~\ref{tab:speicherbedarf-referenzbauten} vergleicht den Flash- und RAM-Bedarf.
+
+\begin{longtable}{p{0.313\linewidth}p{0.313\linewidth}p{0.313\linewidth}}
+\caption{Statischer Flash- und RAM-Bedarf der Referenzbauten}\label{tab:speicherbedarf-referenzbauten}\\
+\toprule
+Profil & Flash & RAM \\
+\midrule
+Minimal & 19.912 Byte & 69.592 Byte \\
+Logging & 29.216 Byte & 71.712 Byte \\
+IoT-Stack & 185.524 Byte & 141.040 Byte \\
+\bottomrule
+\end{longtable}
+
+Tabelle~\ref{tab:speicherbedarf-referenzbauten} macht sichtbar, dass insbesondere das IoT-Profil den statischen Speicherbedarf stark erh{\"o}ht.
+
+Das Logging-Profil braucht im Vergleich zu Minimal weitere 9304 Byte Flash und 2120 Byte RAM. Dies entspricht Zunahmen von 46,73 \% bzw. 3,05 \%. Beim IoT-Profil betr{\"a}gt der weitere Bedarf 165.612 Byte Flash und 71.448 Byte RAM. Im Vergleich zu Minimal steigt der Flash-Bedarf damit um 831,72 \% und der RAM-Bedarf um 102,67 \%.
+
+Der RAM-Bedarf aller Profile enth{\"a}lt dabei den gemeinsam konfigurierten 64-KiB-Systemheap. Im IoT-Profil kommen unter anderem der 16-KiB-mbedTLS-Heap, Netzwerkpuffer, OpenThread-Strukturen und die vergr{\"o}{\ss}erten Main- und System-Workqueue-Stacks hinzu, die f{\"u}r eine funktionsf{\"a}hige Initialisierung gebraucht werden.

@@ -1,0 +1,31 @@
+\chapter{Diskussion}
+\label{ch:diskussion}
+
+Die Messergebnisse zeigen zwei verschieden stark ausgepr{\"a}gte Auswirkungen der Konfigurationsvariation. Beim statischen Speicherbedarf treten deutliche Unterschiede zwischen den Profilen auf. Die Unterschiede bei den untersuchten Laufzeitmetriken sind auf der anderen Seite geringer und folgen keiner durchgehend monotonen Entwicklung.
+
+\section{Einfluss Logging}
+Die Aktivierung des Logging-Subsystems erh{\"o}ht den Flash-Bedarf um 9304 Byte und den RAM-Bedarf um 2120 Byte. Der Speicher wird unter anderem f{\"u}r den Logging-Kern, das UART-Backend, Formatierungsfunktionen, Verwaltungsstrukturen, den Logging-Thread und den 1024-Byte-Ringpuffer gebraucht. Logging stellt daher bereits ohne aktive Log-Ausgaben eine relevante Speicherentscheidung dar.
+
+Bei den Kontextwechselmessungen liegen die Mittelwerte des Logging-Profils um 5,26 bis 7,88 \% {\"u}ber denen des Minimalprofils. Daraus kann jedoch nicht geschlossen werden, dass der Logging-Thread bei jedem gemessenen Kontextwechsel genau diesen Zusatzaufwand verursacht. W{\"a}hrend der Messungen werden dabei keine Log-Nachrichten erzeugt.
+
+Die niedrigere Allokations- und Interrupt-Latenz zeigt au{\ss}erdem, dass ein umfangreicheres Profil nicht unbedingt bei jeder kurzen Operation einen h{\"o}heren Messwert erzeugt. {\"A}nderungen des erzeugten Bin{\"a}r- und Flash-Layouts k{\"o}nnen die Ausrichtung und das Prefetch-Verhalten beeinflussen. Die niedrigere Interrupt-Latenz wird deshalb nicht als Beschleunigung durch das Logging-Subsystem interpretiert.
+
+
+\section{Einfluss IoT-Stack}
+Der st{\"a}rkste Effekt des IoT-Profils ist der Speicherbedarf. Obwohl w{\"a}hrend der Mikrobenchmarks kein Thread-Netzwerkbeitritt, kein CoAP-Verkehr oder ein DTLS-Handshake stattfindet, braucht das Profil mehr als das Neunfache des Flash-Speichers und mehr als das Doppelte des RAMs des Minimalprofils.
+
+Dieser Bedarf entsteht nicht nur durch ausf{\"u}hrbaren Protokollcode. Netzwerkpuffer, kryptografische Daten, Heaps, Kernelobjekte und Thread-Stacks m{\"u}ssen ebenfalls reserviert werden. W{\"a}hrend der Inbetriebnahme zeigte sich zudem, dass es das OpenThread-Profil mit den allgemeinen Stack-Standardwerten nicht bis zum Anwendungseinstieg schaffen konnte. Erst die Vergr{\"o}{\ss}erung des Main-Stacks auf 2560 Byte und des System-Workqueue-Stacks auf 2048 Byte konnte zu einer lauff{\"a}higen Firmware f{\"u}hren. Diese Speicherreservierungen geh{\"o}ren daher zu den Kosten des untersuchten Profils.
+
+Bei den Kontextwechseln liegt das IoT-Profil ungef{\"a}hr 5 bis 6 \% {\"u}ber Minimal. Heap-Operationen unterscheiden sich dabei nur minimal. Die niedrigere Interrupt-Latenz kann nicht als Beschleunigung durch OpenThread oder DTLS bewertet werden, da diese Funktionen nicht Teil des gemessenen Interruptpfads sind.
+
+\section{Trade-offs}
+F{\"u}r die untersuchte Plattform reagiert der Speicherbedarf deutlich st{\"a}rker auf weitere Funktionen als die isolierten Laufzeitmetriken. Vor allem bei IoT-Anwendungen kann die statische Reservierung von Heaps, Stacks und Netzwerkpuffern die verf{\"u}gbare Kapazit{\"a}t stark einschr{\"a}nken, obwohl einzelne Kerneloperationen nur etwas langsamer werden.
+
+Der Fragmentierungstest zeigt zudem, dass die Summe von nicht angeforderten Bytes keine Aussage dar{\"u}ber m{\"o}glich macht, welche zusammenh{\"a}ngende Blockgr{\"o}{\ss}e noch verf{\"u}gbar ist. F{\"u}r Systeme mit dynamischer Speicherverwaltung m{\"u}ssen daher sowohl der gesamte Speicherbedarf als auch dessen zeitliche Belegung und Fragmentierung beachtet werden.
+
+Die Timer-Ergebnisse zeigen dabei vor allem eine Grenze des Messverfahrens. Die gleichen Periodenwerte belegen nur, dass bei einer Aufl{\"o}sung von ungef{\"a}hr 30,52 \textmu{}s kein Unterschied sichtbar ist. Feinere Abweichungen k{\"o}nnen also damit nicht ausgeschlossen werden.
+
+\section{Vergleich mit der Literatur}
+Die gemessenen Kontextwechselzeiten zwischen 228,00 und 439,99 CPU-Zyklen liegen in derselben Gr{\"o}{\ss}enordnung wie weitere ver{\"o}ffentlichte Zephyr-Messungen. Ein direkter Vergleich ist jedoch nur begrenzt m{\"o}glich, da sich Hardware, Konfiguration, Werkzeugkette und vor allem die Definition der Messpunkte unterscheiden k{\"o}nnen.
+
+Silva et al. (2019, S. 10381) notieren f{\"u}r den dort untersuchten Zephyr-Aufbau einen Flash-Bedarf von 130,5 KB und einen RAM-Bedarf von 52,9 KB. Das IoT-Profil dieser Arbeit braucht 185.524 Byte Flash und 141.040 Byte RAM. Der h{\"o}here RAM-Wert enth{\"a}lt jedoch unter anderem einen 64-KiB-Systemheap, einen 16-KiB-mbedTLS-Heap und vergr{\"o}{\ss}erte Stacks. Die Abweichung stellt daher keinen Widerspruch dar. Stattdessen zeigt es, dass Speicherwerte eines RTOS ohne die dazugeh{\"o}rige Anwendung und Konfiguration nicht als allgemeine Produkteigenschaft interpretiert werden k{\"o}nnen.
