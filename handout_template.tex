@@ -1,0 +1,301 @@
+% Handout-Template fuer die Frankfurt University of Applied Sciences
+% Verwendung:
+% 1. Die PowerPoint-Praesentation als PDF exportieren.
+% 2. Das PDF als "praesentation.pdf" neben diese Datei legen.
+% 3. Die Angaben und die Eintraege mit \AddSlideText anpassen.
+% 4. Mit pdflatex zweimal kompilieren.
+%
+% Pro Folie wird automatisch genau eine DIN-A4-Seite erzeugt:
+% - obere Haelfte: Folie aus dem Praesentations-PDF
+% - untere Haelfte: Ergaenzungen in vollstaendigen Saetzen
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[
+  a4paper,
+  left=2.50cm,
+  right=2.50cm,
+  top=2.00cm,
+  bottom=2.00cm,
+  headheight=16pt,
+  headsep=0.55cm,
+  footskip=0.90cm
+]{geometry}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{etoolbox}
+\usepackage{pgffor}
+\usepackage{xcolor}
+\usepackage{titlesec}
+
+% ------------------------------------------------------------
+% Angaben zum Handout
+% ------------------------------------------------------------
+\newcommand{\PresentationFile}{praesentation.pdf}
+\newcommand{\PraxisThema}{Praxisthema der Praxisphase}
+\newcommand{\StudentName}{Vorname Nachname}
+\newcommand{\Matrikelnummer}{Matrikelnummer}
+\newcommand{\Unternehmen}{Heraeus}
+\newcommand{\Vortragsdatum}{22. September 2026}
+\newcommand{\Studiengang}{Informatik (B.Sc.)}
+
+% Farben und Typografie angelehnt an die sachliche FRA-UAS-Vorlage.
+\definecolor{FRAgray}{RGB}{75,75,75}
+\definecolor{RuleGray}{RGB}{175,175,175}
+\definecolor{NoteGray}{RGB}{95,95,95}
+
+% ------------------------------------------------------------
+% Kopf- und Fusszeile
+% ------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textbf{FRANKFURT UNIVERSITY OF APPLIED SCIENCES}}
+\fancyhead[R]{\small\textcolor{FRAgray}{Handout}}
+\fancyfoot[C]{\small Seite \thepage\ von \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Die Titelseite und die Inhaltsseiten erhalten ebenfalls die Kopfzeile,
+% waehrend die Folienseiten mit demselben Seitenraster arbeiten.
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[L]{\small\textbf{FRANKFURT UNIVERSITY OF APPLIED SCIENCES}}
+  \fancyhead[R]{\small\textcolor{FRAgray}{Handout}}
+  \fancyfoot[C]{\small Seite \thepage\ von \pageref{LastPage}}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% ------------------------------------------------------------
+% Layoutmasse
+% ------------------------------------------------------------
+% Die Folie belegt die obere Haelfte des nutzbaren Seitenbereichs.
+% Die Hoehe kann bei Bedarf geringfuegig reduziert werden, falls die
+% PowerPoint-Datei ein anderes Seitenverhaeltnis besitzt.
+\newlength{\SlideAreaHeight}
+\setlength{\SlideAreaHeight}{0.405\textheight}
+\newlength{\TextAreaHeight}
+\setlength{\TextAreaHeight}{0.405\textheight}
+
+\newcommand{\HandoutRule}{%
+  \par\vspace{0.18cm}%
+  \noindent\textcolor{RuleGray}{\rule{\textwidth}{0.45pt}}%
+  \par\vspace{0.16cm}%
+}
+
+% ------------------------------------------------------------
+% Folientexte verwalten
+% ------------------------------------------------------------
+% Beispiel:
+% \AddSlideText{1}{In diesem Abschnitt wird ...}
+% \AddSlideText{2}{Die verwendete Architektur besteht aus ...}
+%
+% Wird fuer eine Folie kein Text hinterlegt, erscheint eine unaufdringliche
+% Markierung. Diese kann spaeter geloescht oder ersetzt werden.
+\newcommand{\AddSlideText}[2]{%
+  \expandafter\def\csname SlideText@#1\endcsname{#2}%
+}
+
+\newcommand{\PrintSlideText}[1]{%
+  \ifcsname SlideText@#1\endcsname
+    \csname SlideText@#1\endcsname
+  \else
+    \textcolor{NoteGray}{\textit{Ergaenzungen zu Folie #1 hier eintragen.}}%
+  \fi
+}
+
+% ------------------------------------------------------------
+% Beispiel-Eintraege: durch die eigenen Ergaenzungen ersetzen.
+% Die Texte sollen den Folieninhalt erklaeren und nicht lediglich wiederholen.
+% ------------------------------------------------------------
+\AddSlideText{1}{%
+  Diese Folie fuehrt in das Thema der Praxisphase ein. Hier sollte kurz
+  erlaeutert werden, welches praktische Problem untersucht oder geloest wurde
+  und welchen Beitrag die eigene Arbeit dazu geleistet hat.
+}
+
+% Weitere Eintraege nach demselben Muster ergaenzen:
+% \AddSlideText{2}{Text zu Folie 2.}
+% \AddSlideText{3}{Text zu Folie 3.}
+% \AddSlideText{4}{Text zu Folie 4.}
+
+% ------------------------------------------------------------
+% Folienzahl automatisch aus dem Praesentations-PDF bestimmen
+% ------------------------------------------------------------
+\newcount\SlideCount
+\newcount\CurrentSlide
+\newcommand{\DetermineSlideCount}{%
+  \pdfximage{\PresentationFile}%
+  \SlideCount=\pdflastximagepages
+}
+
+% ------------------------------------------------------------
+% Eine Seite pro Folie
+% ------------------------------------------------------------
+\newcommand{\SlidePage}[1]{%
+  \thispagestyle{fancy}%
+  \noindent
+  \begin{minipage}[t][\SlideAreaHeight][c]{\textwidth}
+    \centering
+    \includegraphics[
+      page=#1,
+      width=\textwidth,
+      height=\SlideAreaHeight,
+      keepaspectratio
+    ]{\PresentationFile}%
+  \end{minipage}%
+  \HandoutRule
+  \noindent\textbf{Ergaenzungen zu Folie #1}\par
+  \vspace{0.12cm}%
+  \begin{minipage}[t][\TextAreaHeight][t]{\textwidth}
+    \setlength{\parindent}{0pt}%
+    \setlength{\parskip}{0.55em}%
+    \raggedright
+    \PrintSlideText{#1}%
+  \end{minipage}%
+  \clearpage
+}
+
+\newcommand{\AllSlides}{%
+  \DetermineSlideCount
+  \CurrentSlide=1
+  \loop
+    \SlidePage{\the\CurrentSlide}%
+    \advance\CurrentSlide by 1
+  \ifnum\CurrentSlide<\numexpr\SlideCount+1\relax
+  \repeat
+}
+
+% ------------------------------------------------------------
+% Literaturverzeichnis
+% ------------------------------------------------------------
+\newcommand{\Literaturverzeichnis}{%
+  \clearpage
+  \section*{Literaturverzeichnis}
+  \addcontentsline{toc}{section}{Literaturverzeichnis}
+  \begin{thebibliography}{99}
+    \setlength{\itemsep}{0.65em}
+    \small
+    \bibitem{heraeus-history}
+      Heraeus: \emph{Geschichte von Heraeus}.\\
+      \url{https://www.heraeus.com/de/about-heraeus/history/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{servicenow}
+      ServiceNow: \emph{Was ist ServiceNow?}.\\
+      \url{https://www.servicenow.com/de/what-is-servicenow.html}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{efficientip-solidserver}
+      EfficientIP: \emph{SOLIDserver for the Cloud 3.4}.\\
+      \url{https://efficientip.com/resources/solidserver-for-the-cloud-3-4/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{microsoft-dhcp-scopes}
+      Microsoft: \emph{DHCP scopes}.\\
+      \url{https://learn.microsoft.com/de-de/windows-server/networking/technologies/dhcp/dhcp-scopes}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{ibm-dns-records}
+      IBM: \emph{DNS records}.\\
+      \url{https://www.ibm.com/de-de/think/topics/dns-records}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{cloudflare-dns-records-de}
+      Cloudflare: \emph{DNS records}.\\
+      \url{https://www.cloudflare.com/de-de/learning/dns/dns-records/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{cloudflare-a-record}
+      Cloudflare: \emph{DNS A record}.\\
+      \url{https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{cloudflare-cname-record}
+      Cloudflare: \emph{DNS CNAME record}.\\
+      \url{https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{cloudflare-txt-record}
+      Cloudflare: \emph{DNS TXT record}.\\
+      \url{https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{dash0-serilog}
+      Dash0: \emph{Serilog guide}.\\
+      \url{https://www.dash0.com/guides/serilog}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{microsoft-aspnet-overview}
+      Microsoft: \emph{ASP.NET overview}.\\
+      \url{https://learn.microsoft.com/de-de/aspnet/overview}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{microsoft-aspnet-core-overview}
+      Microsoft: \emph{ASP.NET Core overview}.\\
+      \url{https://learn.microsoft.com/de-de/aspnet/core/overview?view=aspnetcore-10.0}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{redhat-ldap}
+      Red Hat: \emph{What is LDAP authentication?}.\\
+      \url{https://www.redhat.com/de/topics/security/what-is-ldap-authentication}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{rublon-ldap-ldaps}
+      Rublon: \emph{LDAP vs. LDAPS}.\\
+      \url{https://rublon.com/blog/ldap-ldaps-difference/}.\\
+      Zugriff am 22.09.2026.
+
+    \bibitem{cloudflare-csrf}
+      Cloudflare: \emph{Cross-site request forgery (CSRF)}.\\
+      \url{https://www.cloudflare.com/de-de/learning/security/threats/cross-site-request-forgery/}.\\
+      Zugriff am 22.09.2026.
+  \end{thebibliography}
+}
+
+% ------------------------------------------------------------
+% Dokument
+% ------------------------------------------------------------
+\begin{document}
+
+% Titelblatt gemaess den Vorgaben des angehaengten Dokuments.
+\begin{titlepage}
+  \thispagestyle{plain}
+  \vspace*{1.7cm}
+  {\Large\textbf{FRANKFURT UNIVERSITY OF APPLIED SCIENCES}\par}
+  \vspace{2.4cm}
+  {\large Handout zur Praxisphase\par}
+  \vspace{0.8cm}
+  {\LARGE\textbf{\PraxisThema}\par}
+  \vfill
+  \begin{tabular}{@{}>{\bfseries}p{4.0cm}p{9.0cm}@{}}
+    Name: & \StudentName\\[0.25cm]
+    Matrikelnummer: & \Matrikelnummer\\[0.25cm]
+    Studiengang: & \Studiengang\\[0.25cm]
+    Praxisstelle: & \Unternehmen\\[0.25cm]
+    Datum des Vortrags: & \Vortragsdatum
+  \end{tabular}
+  \vfill
+  {\small Frankfurt University of Applied Sciences\par}
+\end{titlepage}
+
+% Die folgende Zeile erzeugt automatisch eine Handout-Seite fuer jede Folie.
+% Die Foliennummer wird aus der Seitenzahl des PDFs ermittelt.
+\AllSlides
+
+\Literaturverzeichnis
+
+\end{document}
