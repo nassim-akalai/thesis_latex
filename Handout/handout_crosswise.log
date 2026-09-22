@@ -1,0 +1,903 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.26)  23 SEP 2026 00:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./handout_crosswise.tex
+(handout_crosswise.tex
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count276
+\c@section=\count277
+\c@subsection=\count278
+\c@subsubsection=\count279
+\c@paragraph=\count280
+\c@subparagraph=\count281
+\c@figure=\count282
+\c@table=\count283
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen150
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2026/08/08 v26.10 The multilingual framework for LuaLaTeX, pdfLa
+TeX and XeLaTeX
+\babel@savecnt=\count284
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2105.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2107.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2109.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2110.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2111.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2113.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2138.
+\U@D=\dimen151
+\l@unhyphenated=\language79
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count285
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4298.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\
+babel-ngerman.tex)
+Package babel Info: Importing font and identification data for 'ngerman'
+(babel)             from babel-de.ini. Reported on input line 4426.
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\babel-germ
+an.def
+Package babel Info: Making " an active character on input line 500.
+)))
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathpazo.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2026/03/07 v6.0 Page Geometry
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2026-05-17 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count286
+\Gm@cntv=\count287
+\c@Gm@tempcnt=\count288
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks20
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count289
+\calc@Bcount=\count290
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count291
+\calc@Cskip=\skip53
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2026/05/31 v3.0e eso-pic (RN)
+\ESO@tempdima=\dimen162
+\ESO@tempdimb=\dimen163
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count292
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2026-05-17 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2026-05-17 v1.4h Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen164
+\Gin@req@width=\dimen165
+)
+\AM@pagewidth=\dimen166
+\AM@pageheight=\dimen167
+\AM@fboxrule=\dimen168
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count293
+\AM@pagebox=\box53
+\AM@global@opts=\toks21
+\AM@pagecnt=\count294
+\AM@toc@title=\toks22
+\AM@lof@heading=\toks23
+\c@AM@survey=\count295
+\AM@templatesizebox=\box54
+)
+LaTeX Font Info:    Trying to load font information for T1+ppl on input line 27
+.
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2026-07-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count296
+) (handout_crosswise.aux
+Package babel Info: 'ngerman' activates 'german' shorthands.
+(babel)             Reported on input line 5.
+)
+\openout1 = `handout_crosswise.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+\big@size=\dimen169
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(34.14322pt, 776.7604pt, 34.14322pt)
+* v-part:(T,H,B)=(28.45274pt, 540.60239pt, 28.45274pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=776.7604pt
+* \textheight=540.60239pt
+* \oddsidemargin=-38.12677pt
+* \evensidemargin=-38.12677pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=144.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count297
+\scratchdimen=\dimen170
+\scratchbox=\box55
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen171
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks25
+)
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\nassi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package babel Info: Main language set to 'ngerman'.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=1, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf>
+Package pdftex.def Info: praesentation.pdf  used on input line 37.
+(pdftex.def)             Requested size: 963.59766pt x 542.02367pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=3, page=1, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 963.59766pt x 542.02367pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=4, page=2, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 2>
+Package pdftex.def Info: praesentation.pdf , page2 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 2>
+Package pdftex.def Info: praesentation.pdf , page2 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=5, page=3, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 3>
+Package pdftex.def Info: praesentation.pdf , page3 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 3>
+Package pdftex.def Info: praesentation.pdf , page3 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=6, page=4, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 4>
+Package pdftex.def Info: praesentation.pdf , page4 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 4>
+Package pdftex.def Info: praesentation.pdf , page4 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 2>
+Package pdftex.def Info: praesentation.pdf , page2 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 3>
+Package pdftex.def Info: praesentation.pdf , page3 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 4>
+Package pdftex.def Info: praesentation.pdf , page4 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[1
+
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=47, page=5, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 5>
+Package pdftex.def Info: praesentation.pdf , page5 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 5>
+Package pdftex.def Info: praesentation.pdf , page5 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=48, page=6, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 6>
+Package pdftex.def Info: praesentation.pdf , page6 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 6>
+Package pdftex.def Info: praesentation.pdf , page6 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=49, page=7, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 7>
+Package pdftex.def Info: praesentation.pdf , page7 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 7>
+Package pdftex.def Info: praesentation.pdf , page7 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=50, page=8, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 8>
+Package pdftex.def Info: praesentation.pdf , page8 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 8>
+Package pdftex.def Info: praesentation.pdf , page8 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 5>
+Package pdftex.def Info: praesentation.pdf , page5 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 6>
+Package pdftex.def Info: praesentation.pdf , page6 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 7>
+Package pdftex.def Info: praesentation.pdf , page7 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 8>
+Package pdftex.def Info: praesentation.pdf , page8 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[2
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=78, page=9, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 9>
+Package pdftex.def Info: praesentation.pdf , page9 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 9>
+Package pdftex.def Info: praesentation.pdf , page9 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=79, page=10, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 10>
+Package pdftex.def Info: praesentation.pdf , page10 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 10>
+Package pdftex.def Info: praesentation.pdf , page10 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=80, page=11, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 11>
+Package pdftex.def Info: praesentation.pdf , page11 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 11>
+Package pdftex.def Info: praesentation.pdf , page11 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=81, page=12, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 12>
+Package pdftex.def Info: praesentation.pdf , page12 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 12>
+Package pdftex.def Info: praesentation.pdf , page12 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 9>
+Package pdftex.def Info: praesentation.pdf , page9 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 10>
+Package pdftex.def Info: praesentation.pdf , page10 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 11>
+Package pdftex.def Info: praesentation.pdf , page11 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 12>
+Package pdftex.def Info: praesentation.pdf , page12 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[3
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=101, page=13, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 13>
+Package pdftex.def Info: praesentation.pdf , page13 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 13>
+Package pdftex.def Info: praesentation.pdf , page13 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=102, page=14, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 14>
+Package pdftex.def Info: praesentation.pdf , page14 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 14>
+Package pdftex.def Info: praesentation.pdf , page14 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=103, page=15, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 15>
+Package pdftex.def Info: praesentation.pdf , page15 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 15>
+Package pdftex.def Info: praesentation.pdf , page15 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=104, page=16, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 16>
+Package pdftex.def Info: praesentation.pdf , page16 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 16>
+Package pdftex.def Info: praesentation.pdf , page16 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 13>
+Package pdftex.def Info: praesentation.pdf , page13 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 14>
+Package pdftex.def Info: praesentation.pdf , page14 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 15>
+Package pdftex.def Info: praesentation.pdf , page15 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 16>
+Package pdftex.def Info: praesentation.pdf , page16 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[4
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=120, page=17, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 17>
+Package pdftex.def Info: praesentation.pdf , page17 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 17>
+Package pdftex.def Info: praesentation.pdf , page17 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=121, page=18, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 18>
+Package pdftex.def Info: praesentation.pdf , page18 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 18>
+Package pdftex.def Info: praesentation.pdf , page18 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=122, page=19, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 19>
+Package pdftex.def Info: praesentation.pdf , page19 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 19>
+Package pdftex.def Info: praesentation.pdf , page19 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=123, page=20, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 20>
+Package pdftex.def Info: praesentation.pdf , page20 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 20>
+Package pdftex.def Info: praesentation.pdf , page20 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 17>
+Package pdftex.def Info: praesentation.pdf , page17 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 18>
+Package pdftex.def Info: praesentation.pdf , page18 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 19>
+Package pdftex.def Info: praesentation.pdf , page19 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 20>
+Package pdftex.def Info: praesentation.pdf , page20 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[5
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=147, page=21, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 21>
+Package pdftex.def Info: praesentation.pdf , page21 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 21>
+Package pdftex.def Info: praesentation.pdf , page21 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=148, page=22, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 22>
+Package pdftex.def Info: praesentation.pdf , page22 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 22>
+Package pdftex.def Info: praesentation.pdf , page22 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=149, page=23, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 23>
+Package pdftex.def Info: praesentation.pdf , page23 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 23>
+Package pdftex.def Info: praesentation.pdf , page23 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=150, page=24, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 24>
+Package pdftex.def Info: praesentation.pdf , page24 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 24>
+Package pdftex.def Info: praesentation.pdf , page24 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 21>
+Package pdftex.def Info: praesentation.pdf , page21 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 22>
+Package pdftex.def Info: praesentation.pdf , page22 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 23>
+Package pdftex.def Info: praesentation.pdf , page23 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 24>
+Package pdftex.def Info: praesentation.pdf , page24 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[6
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=159, page=25, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 25>
+Package pdftex.def Info: praesentation.pdf , page25 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 25>
+Package pdftex.def Info: praesentation.pdf , page25 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=160, page=26, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 26>
+Package pdftex.def Info: praesentation.pdf , page26 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 26>
+Package pdftex.def Info: praesentation.pdf , page26 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: found PDF v
+ersion <1.7>, but at most version <1.5> allowed
+<praesentation.pdf, id=161, page=27, 963.6pt x 542.025pt>
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 27>
+Package pdftex.def Info: praesentation.pdf , page27 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 27>
+Package pdftex.def Info: praesentation.pdf , page27 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 1>
+Package pdftex.def Info: praesentation.pdf , page1 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 25>
+Package pdftex.def Info: praesentation.pdf , page25 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 26>
+Package pdftex.def Info: praesentation.pdf , page26 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+File: praesentation.pdf Graphic file (type pdf)
+<use praesentation.pdf, page 27>
+Package pdftex.def Info: praesentation.pdf , page27 used on input line 37.
+(pdftex.def)             Requested size: 905.78415pt x 509.50356pt.
+[7
+
+ <./praesentation.pdf> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+> <./praesentation.pdf
+
+pdfTeX warning: pdflatex (file ./praesentation.pdf): PDF inclusion: multiple pd
+fs with page group included in a single page
+>] (handout_crosswise.aux)
+ ***********
+LaTeX2e <2026-06-01>
+L3 programming layer <2026-07-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 5324 strings out of 467501
+ 88521 string characters out of 5408550
+ 523089 words of memory out of 5000000
+ 34527 multiletter control sequences out of 15000+600000
+ 629415 words of font info for 42 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,19n,79p,236b,481s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on handout_crosswise.pdf (7 pages, 1137116 bytes).
+PDF statistics:
+ 169 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+

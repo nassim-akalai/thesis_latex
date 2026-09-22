@@ -1,0 +1,39 @@
+% 4 Folien pro DIN-A4-Seite im Querformat (2x2-Raster, unverdreht, ohne Seitenzahlen)
+% Voraussetzung: "praesentation.pdf" liegt im selben Verzeichnis.
+
+\documentclass[a4paper,landscape]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+% Palatino-Schriftart aus der Thesis-Vorlage
+\usepackage{mathpazo}
+
+\usepackage[
+  a4paper,
+  landscape,
+  left=1.2cm,
+  right=1.2cm,
+  top=1.0cm,
+  bottom=1.0cm
+]{geometry}
+
+\usepackage{xcolor}
+\usepackage{pdfpages}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\includepdf[
+  pages=-,                                 % Bindet alle Folien automatisch ein
+  nup=2x2,                                 % 2 Zeilen x 2 Spalten = 4 Folien pro Seite
+  landscape=false,                         % Verhindert die ungewollte Drehung der Folien
+  delta=8mm 8mm,                           % Abstand zwischen den Folien (horizontal x vertikal)
+  frame=true,                              % Zieht einen Rand um jede Folie
+  scale=0.94,                              % Optimale Skalierung fuer maximale Ausnutzung
+  pagecommand={\thispagestyle{empty}}      % Unterdrueckt saemtliche Seitennummern
+]{praesentation.pdf}
+
+\end{document}

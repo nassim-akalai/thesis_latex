@@ -1,0 +1,380 @@
+% Handout-Template für die Frankfurt University of Applied Sciences
+%
+% Pro Folie wird automatisch genau eine DIN-A4-Seite erzeugt:
+% - obere Hälfte: Folie aus dem Präsentations-PDF
+% - untere Hälfte: Ergänzungen in vollständigen Sätzen
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+% Schriftart aus der Thesis-Vorlage (Palatino)
+\usepackage{mathpazo}
+
+\usepackage[
+  a4paper,
+  left=2.50cm,
+  right=2.50cm,
+  top=2.00cm,
+  bottom=2.00cm,
+  headheight=25pt,
+  headsep=0.55cm,
+  footskip=0.90cm
+]{geometry}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{xurl}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{etoolbox}
+\usepackage{pgffor}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{filecontents}
+
+% ------------------------------------------------------------
+% Literaturverwaltung gemäß Thesis-Vorlage (biblatex + biber)
+% ------------------------------------------------------------
+\usepackage[autostyle=true]{csquotes}
+\usepackage[
+  backend=biber,
+  natbib=true,
+  style=numeric,
+  giveninits=true,
+  isbn=true,
+  url=true,
+  doi=true,
+  sorting=none
+]{biblatex}
+
+% ------------------------------------------------------------
+% Hyperref-Konfiguration analog zur Thesis
+% ------------------------------------------------------------
+\definecolor{mdtBlue}{RGB}{0,30,80}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,
+  citecolor=magenta,
+  linkcolor=mdtBlue,
+  urlcolor=blue,
+  unicode=true,
+  breaklinks=true
+}
+
+% ------------------------------------------------------------
+% Angaben zur Praxisphase
+% ------------------------------------------------------------
+\newcommand{\PresentationFile}{praesentation.pdf}
+\newcommand{\PraxisThema}{Werkstudium: Cloud Infrastructure Automation}
+\newcommand{\StudentName}{Nassim Akalai}
+\newcommand{\Matrikelnummer}{1456967}
+\newcommand{\Studiengang}{Informatik (B.Sc.)}
+\newcommand{\Unternehmen}{Heraeus}
+\newcommand{\BetreuerUnternehmen}{Matthias Müller} % Betriebliche Betreuung (falls vorhanden)
+\newcommand{\Vortragsdatum}{25.09.2026}
+\newcommand{\UniversityName}{Frankfurt University of Applied Sciences}
+\newcommand{\DepartmentName}{Fachbereich 2: Informatik und Ingenieurwissenschaften}
+\newcommand{\GroupName}{Praxisphasenseminar}
+
+% Formatierungs-Befehle und Farben aus der Thesis-Vorlage
+\newcommand{\HRule}{\rule{.9\linewidth}{.6pt}}
+\definecolor{FRAgray}{RGB}{75,75,75}
+\definecolor{RuleGray}{RGB}{175,175,175}
+\definecolor{NoteGray}{RGB}{95,95,95}
+\definecolor{SlideBorderGray}{HTML}{D0D5DD} % Hellgrauer Rand für Folien
+
+% ------------------------------------------------------------
+% Erstellung der integrierten Literaturdatenbank mit normalen Umlauten
+% ------------------------------------------------------------
+\begin{filecontents*}{\jobname.bib}
+@online{heraeus-history,
+  author  = {{Heraeus}},
+  title   = {Geschichte von Heraeus},
+  url     = {https://www.heraeus.com/de/about-heraeus/history/},
+  urldate = {2026-09-22}
+}
+@online{servicenow,
+  author  = {{ServiceNow}},
+  title   = {Was ist ServiceNow?},
+  url     = {https://www.servicenow.com/de/what-is-servicenow.html},
+  urldate = {2026-09-22}
+}
+@online{microsoft-dhcp-scopes,
+  author  = {{Microsoft}},
+  title   = {DHCP scopes},
+  url     = {https://learn.microsoft.com/de-de/windows-server/networking/technologies/dhcp/dhcp-scopes},
+  urldate = {2026-09-22}
+}
+@online{ibm-dns-records,
+  author  = {{IBM}},
+  title   = {DNS records},
+  url     = {https://www.ibm.com/de-de/think/topics/dns-records},
+  urldate = {2026-09-22}
+}
+@online{cloudflare-dns-records-de,
+  author  = {{Cloudflare}},
+  title   = {DNS records},
+  url     = {https://www.cloudflare.com/de-de/learning/dns/dns-records/},
+  urldate = {2026-09-22}
+}
+@online{cloudflare-a-record,
+  author  = {{Cloudflare}},
+  title   = {DNS A record},
+  url     = {https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/},
+  urldate = {2026-09-22}
+}
+@online{cloudflare-cname-record,
+  author  = {{Cloudflare}},
+  title   = {DNS CNAME record},
+  url     = {https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/},
+  urldate = {2026-09-22}
+}
+@online{cloudflare-txt-record,
+  author  = {{Cloudflare}},
+  title   = {DNS TXT record},
+  url     = {https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/},
+  urldate = {2026-09-22}
+}
+@online{dash0-serilog,
+  author  = {{Dash0}},
+  title   = {Serilog guide},
+  url     = {https://www.dash0.com/guides/serilog},
+  urldate = {2026-09-22}
+}
+@online{microsoft-aspnet-overview,
+  author  = {{Microsoft}},
+  title   = {ASP.NET overview},
+  url     = {https://learn.microsoft.com/de-de/aspnet/overview},
+  urldate = {2026-09-22}
+}
+@online{microsoft-aspnet-core-overview,
+  author  = {{Microsoft}},
+  title   = {ASP.NET Core overview},
+  url     = {https://learn.microsoft.com/de-de/aspnet/core/overview?view=aspnetcore-10.0},
+  urldate = {2026-09-22}
+}
+@online{redhat-ldap,
+  author  = {{Red Hat}},
+  title   = {What is LDAP authentication?},
+  url     = {https://www.redhat.com/de/topics/security/what-is-ldap-authentication},
+  urldate = {2026-09-22}
+}
+@online{rublon-ldap-ldaps,
+  author  = {{Rublon}},
+  title   = {LDAP vs. LDAPS},
+  url     = {https://rublon.com/blog/ldap-ldaps-difference/},
+  urldate = {2026-09-22}
+}
+@online{cloudflare-csrf,
+  author  = {{Cloudflare}},
+  title   = {Cross-site request forgery (CSRF)},
+  url     = {https://www.cloudflare.com/de-de/learning/security/threats/cross-site-request-forgery/},
+  urldate = {2026-09-22}
+}
+@online{seeklogo-activedirectory,
+  author  = {{seeklogo}},
+  title   = {Active Directory Vector Logo},
+  url     = {https://seeklogo.com/vector-logo/331553/active-directory},
+  urldate = {2026-09-22}
+}
+@online{pressebox-guidevision-servicenow,
+  author  = {{GuideVision Deutschland GmbH}},
+  title   = {Mit ServiceNow und Tanium zu modernen IT-Workflows},
+  journal = {PresseBox},
+  url     = {https://www.pressebox.de/pressemitteilung/guidevision-deutschland-gmbh/mit-servicenow-und-tanium-zu-modernen-it-workflows/boxid/1016135},
+  urldate = {2026-09-22}
+}
+@online{logosworld-azure-devops,
+  author  = {{Logos-World}},
+  title   = {Azure DevOps Logo and Symbol, Meaning, History, PNG, Brand},
+  url     = {https://logos-world.net/azure-devops-logo/},
+  urldate = {2026-09-22}
+}
+\end{filecontents*}
+
+\addbibresource{\jobname.bib}
+
+% ------------------------------------------------------------
+% Kopf- und Fußzeile
+% ------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\raisebox{-0.15\height}{\includegraphics[height=20pt,keepaspectratio]{images/logo.png}}}
+\fancyhead[R]{\small\textcolor{FRAgray}{Handout}}
+\fancyfoot[C]{\small Seite \thepage\ von \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}
+  \fancyhead[L]{\raisebox{-0.15\height}{\includegraphics[height=20pt,keepaspectratio]{images/logo.png}}}
+  \fancyhead[R]{\small\textcolor{FRAgray}{Handout}}
+  \fancyfoot[C]{\small Seite \thepage\ von \pageref{LastPage}}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+% ------------------------------------------------------------
+% Layoutmaße
+% ------------------------------------------------------------
+\newlength{\SlideAreaHeight}
+\setlength{\SlideAreaHeight}{0.405\textheight}
+\newlength{\TextAreaHeight}
+\setlength{\TextAreaHeight}{0.405\textheight}
+
+\newcommand{\HandoutRule}{%
+  \par\vspace{0.18cm}%
+  \noindent\textcolor{RuleGray}{\rule{\textwidth}{0.45pt}}%
+  \par\vspace{0.16cm}%
+}
+
+% ------------------------------------------------------------
+% Folientexte verwalten
+% ------------------------------------------------------------
+\newcommand{\AddSlideText}[2]{%
+  \expandafter\def\csname SlideText@#1\endcsname{#2}%
+}
+
+\newcommand{\PrintSlideText}[1]{%
+  \ifcsname SlideText@#1\endcsname
+    \csname SlideText@#1\endcsname
+  \else
+    \textcolor{NoteGray}{\textit{Ergänzungen zu Folie #1 hier eintragen.}}%
+  \fi
+}
+
+% ------------------------------------------------------------
+% Beispiel-Einträge mit normalen Umlauten
+% ------------------------------------------------------------
+\AddSlideText{1}{%
+  Diese Folie führt in das Thema der Praxisphase ein. Hier sollte kurz
+  erläutert werden, welches praktische Problem untersucht oder gelöst wurde
+  und welchen Beitrag die eigene Arbeit dazu geleistet hat.
+}
+
+% ------------------------------------------------------------
+% Folienzahl automatisch aus dem Präsentations-PDF bestimmen
+% ------------------------------------------------------------
+\newcount\SlideCount
+\newcount\CurrentSlide
+\newcommand{\DetermineSlideCount}{%
+  \pdfximage{\PresentationFile}%
+  \SlideCount=\pdflastximagepages
+}
+
+% ------------------------------------------------------------
+% Eine Seite pro Folie mit hellgrauem Rahmen
+% ------------------------------------------------------------
+\newcommand{\SlidePage}[1]{%
+  \thispagestyle{fancy}%
+  \noindent
+  \begin{minipage}[t][\SlideAreaHeight][c]{\textwidth}
+    \centering
+    \setlength{\fboxrule}{0.6pt}% Dicke der Rahmenlinie
+    \setlength{\fboxsep}{0pt}%   Bündiger Abschluss ohne Innenabstand
+    \fcolorbox{SlideBorderGray}{white}{%
+      \includegraphics[
+        page=#1,
+        width=\dimexpr\textwidth - 2\fboxrule\relax,
+        height=\dimexpr\SlideAreaHeight - 2\fboxrule\relax,
+        keepaspectratio
+      ]{\PresentationFile}%
+    }%
+  \end{minipage}%
+  \HandoutRule
+  \noindent\textbf{Ergänzungen zu Folie #1}\par
+  \vspace{0.12cm}%
+  \begin{minipage}[t][\TextAreaHeight][t]{\textwidth}
+    \setlength{\parindent}{0pt}%
+    \setlength{\parskip}{0.55em}%
+    \raggedright
+    \PrintSlideText{#1}%
+  \end{minipage}%
+  \clearpage
+}
+
+\newcommand{\AllSlides}{%
+  \DetermineSlideCount
+  \CurrentSlide=1
+  \loop
+    \SlidePage{\the\CurrentSlide}%
+    \advance\CurrentSlide by 1
+  \ifnum\CurrentSlide<\numexpr\SlideCount+1\relax
+  \repeat
+}
+
+% ------------------------------------------------------------
+% Dokument
+% ------------------------------------------------------------
+\begin{document}
+
+% Titelblatt im Stil der Thesis-Vorlage (Frontmatter)
+\begin{titlepage}
+  \thispagestyle{empty}
+  \begin{center}
+    
+    % Hochschul-Logo
+    \begin{figure}[htbp]
+      \centering
+      \includegraphics[height=2cm,width=4cm,keepaspectratio]{images/frauas}
+    \end{figure}
+    
+    \vspace{0.5cm}
+    \textsc{\Large Handout zur Praxisphase}\\[0.5cm]
+    
+    \HRule \\[0.4cm]
+    {\large \bfseries \PraxisThema\par}\vspace{0.2cm}
+    \HRule \\[1.2cm]
+
+    % Zweispaltiges Layout für Metadaten
+    \begin{minipage}[t]{0.48\textwidth}
+      \begin{flushleft} \large
+        \emph{Studierender:}\\
+        {\StudentName}\\[3pt]
+        \emph{Matrikelnummer:}\\
+        {\Matrikelnummer}\\[3pt]
+        \emph{Studiengang:}\\
+        {\Studiengang}
+      \end{flushleft}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.48\textwidth}
+      \begin{flushright} \large
+        \emph{Praxisstelle:}\\
+        {\Unternehmen}%
+        \ifdefempty{\BetreuerUnternehmen}{}{%
+          \\[3pt]\emph{Betreuung im Betrieb:}\\
+          {\BetreuerUnternehmen}%
+        }
+      \end{flushright}
+    \end{minipage}\\[1.5cm]
+    
+    \vfill
+    
+    \large \textit{Vortrag im Rahmen der Praxisphase}\\[0.3cm]
+    \textit{am}\\[0.3cm]
+    {\DepartmentName} --- {\GroupName}\\[0.3cm]
+    {\UniversityName}\\[1.2cm]
+    
+    \vfill
+    
+    {\large \Vortragsdatum}
+    
+    \vfill
+  \end{center}
+\end{titlepage}
+
+% Automatische Folienseiten
+\AllSlides
+
+% Literaturverzeichnis per biblatex
+\clearpage
+\nocite{*}
+\printbibliography[heading=bibintoc,title={Literaturverzeichnis}]
+
+\end{document}

@@ -1,0 +1,467 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{heraeus-history}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=5f5c1d58b9142b5386dcc84b297eac1a}{%
+           family={{Heraeus}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{fullhash}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{fullhashraw}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{bibnamehash}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{authorbibnamehash}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{authornamehash}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{authorfullhash}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \strng{authorfullhashraw}{5f5c1d58b9142b5386dcc84b297eac1a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Geschichte von Heraeus}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.heraeus.com/de/about-heraeus/history/
+      \endverb
+      \verb{url}
+      \verb https://www.heraeus.com/de/about-heraeus/history/
+      \endverb
+    \endentry
+    \entry{servicenow}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f9f6951a15d7f9fff1e42f86a01430e}{%
+           family={{ServiceNow}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{fullhash}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{fullhashraw}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{bibnamehash}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{authorbibnamehash}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{authornamehash}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{authorfullhash}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \strng{authorfullhashraw}{3f9f6951a15d7f9fff1e42f86a01430e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Was ist ServiceNow?}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.servicenow.com/de/what-is-servicenow.html
+      \endverb
+      \verb{url}
+      \verb https://www.servicenow.com/de/what-is-servicenow.html
+      \endverb
+    \endentry
+    \entry{microsoft-dhcp-scopes}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DHCP scopes}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/de-de/windows-server/networking/technologies/dhcp/dhcp-scopes
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/de-de/windows-server/networking/technologies/dhcp/dhcp-scopes
+      \endverb
+    \endentry
+    \entry{ibm-dns-records}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DNS records}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ibm.com/de-de/think/topics/dns-records
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/de-de/think/topics/dns-records
+      \endverb
+    \endentry
+    \entry{cloudflare-dns-records-de}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={{Cloudflare}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DNS records}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/de-de/learning/dns/dns-records/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/de-de/learning/dns/dns-records/
+      \endverb
+    \endentry
+    \entry{cloudflare-a-record}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={{Cloudflare}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DNS A record}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/dns/dns-records/dns-a-record/
+      \endverb
+    \endentry
+    \entry{cloudflare-cname-record}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={{Cloudflare}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DNS CNAME record}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/
+      \endverb
+    \endentry
+    \entry{cloudflare-txt-record}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={{Cloudflare}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{extraname}{4}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DNS TXT record}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/
+      \endverb
+    \endentry
+    \entry{dash0-serilog}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a753b91139e88c0395d403780f575d0c}{%
+           family={{Dash0}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{a753b91139e88c0395d403780f575d0c}
+      \strng{fullhash}{a753b91139e88c0395d403780f575d0c}
+      \strng{fullhashraw}{a753b91139e88c0395d403780f575d0c}
+      \strng{bibnamehash}{a753b91139e88c0395d403780f575d0c}
+      \strng{authorbibnamehash}{a753b91139e88c0395d403780f575d0c}
+      \strng{authornamehash}{a753b91139e88c0395d403780f575d0c}
+      \strng{authorfullhash}{a753b91139e88c0395d403780f575d0c}
+      \strng{authorfullhashraw}{a753b91139e88c0395d403780f575d0c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Serilog guide}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.dash0.com/guides/serilog
+      \endverb
+      \verb{url}
+      \verb https://www.dash0.com/guides/serilog
+      \endverb
+    \endentry
+    \entry{microsoft-aspnet-overview}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ASP.NET overview}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/de-de/aspnet/overview
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/de-de/aspnet/overview
+      \endverb
+    \endentry
+    \entry{microsoft-aspnet-core-overview}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={{Microsoft}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ASP.NET Core overview}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/de-de/aspnet/core/overview?view=aspnetcore-10.0
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/de-de/aspnet/core/overview?view=aspnetcore-10.0
+      \endverb
+    \endentry
+    \entry{redhat-ldap}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=a82007c47b25723539a00ff94e8b3d27}{%
+           family={{Red Hat}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{fullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{fullhashraw}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{bibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorbibnamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authornamehash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorfullhash}{a82007c47b25723539a00ff94e8b3d27}
+      \strng{authorfullhashraw}{a82007c47b25723539a00ff94e8b3d27}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is LDAP authentication?}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.redhat.com/de/topics/security/what-is-ldap-authentication
+      \endverb
+      \verb{url}
+      \verb https://www.redhat.com/de/topics/security/what-is-ldap-authentication
+      \endverb
+    \endentry
+    \entry{rublon-ldap-ldaps}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=50d547ff3e77500e70bec7b50953db93}{%
+           family={{Rublon}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{50d547ff3e77500e70bec7b50953db93}
+      \strng{fullhash}{50d547ff3e77500e70bec7b50953db93}
+      \strng{fullhashraw}{50d547ff3e77500e70bec7b50953db93}
+      \strng{bibnamehash}{50d547ff3e77500e70bec7b50953db93}
+      \strng{authorbibnamehash}{50d547ff3e77500e70bec7b50953db93}
+      \strng{authornamehash}{50d547ff3e77500e70bec7b50953db93}
+      \strng{authorfullhash}{50d547ff3e77500e70bec7b50953db93}
+      \strng{authorfullhashraw}{50d547ff3e77500e70bec7b50953db93}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LDAP vs. LDAPS}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://rublon.com/blog/ldap-ldaps-difference/
+      \endverb
+      \verb{url}
+      \verb https://rublon.com/blog/ldap-ldaps-difference/
+      \endverb
+    \endentry
+    \entry{cloudflare-csrf}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=3f07179a07b2a7661e37a3fd0e652a07}{%
+           family={{Cloudflare}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{fullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{bibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorbibnamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authornamehash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhash}{3f07179a07b2a7661e37a3fd0e652a07}
+      \strng{authorfullhashraw}{3f07179a07b2a7661e37a3fd0e652a07}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cross-site request forgery (CSRF)}
+      \field{urlday}{22}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cloudflare.com/de-de/learning/security/threats/cross-site-request-forgery/
+      \endverb
+      \verb{url}
+      \verb https://www.cloudflare.com/de-de/learning/security/threats/cross-site-request-forgery/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
