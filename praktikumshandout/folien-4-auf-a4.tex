@@ -1,0 +1,42 @@
+% !TeX program = pdflatex
+% Kompilation erforderlich mit: pdflatex -shell-escape folien-4-auf-a4.tex
+% Erwartete Ordnerstruktur:
+%   folien-4-auf-a4.tex
+%   praesi/
+%     meine-praesentation.pptx   <- genau eine Datei
+
+\documentclass[a4paper,landscape]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{pdfpages}
+\usepackage{xcolor}
+\usepackage{ifthen}
+
+\pagestyle{empty}
+\setlength{\pdfpagewidth}{29.7cm}
+\setlength{\pdfpageheight}{21cm}
+
+% Die Präsentation wird bei jedem LaTeX-Lauf automatisch gesucht und bei Bedarf
+% aus PPTX/PPT in eine PDF-Datei umgewandelt.
+\immediate\write18{mkdir -p .build; rm -f .build/presentation.pdf; src=""; count=0; for f in praesi/*; do if [ -f "$f" ]; then case "$f" in *.pdf|*.PDF|*.pptx|*.PPTX|*.ppt|*.PPT) src="$f"; count=$((count+1));; esac; fi; done; if [ "$count" -eq 0 ]; then echo "FEHLER: Keine PDF-, PPTX- oder PPT-Datei im Ordner praesi gefunden." >&2; exit 1; fi; if [ "$count" -gt 1 ]; then echo "FEHLER: Mehr als eine Präsentationsdatei im Ordner praesi gefunden. Bitte nur eine Datei ablegen." >&2; exit 1; fi; case "$src" in *.pdf|*.PDF) cp "$src" .build/presentation.pdf;; *) if command -v soffice >/dev/null 2>&1; then soffice --headless --convert-to pdf --outdir .build "$src" >/dev/null 2>&1; elif command -v libreoffice >/dev/null 2>&1; then libreoffice --headless --convert-to pdf --outdir .build "$src" >/dev/null 2>&1; else echo "FEHLER: LibreOffice/soffice wurde nicht gefunden." >&2; exit 1; fi; converted=".build/$(basename "${src%.*}").pdf"; if [ ! -f "$converted" ]; then echo "FEHLER: Die Präsentation konnte nicht in PDF umgewandelt werden." >&2; exit 1; fi; cp "$converted" .build/presentation.pdf;; esac}
+
+\begin{document}
+
+% 4 Folien pro A4-Seite: 2 Spalten × 2 Zeilen.
+% Das Layout erhält das Seitenverhältnis der Originalfolien.
+\IfFileExists{.build/presentation.pdf}{%
+  \includepdf[
+    pages=-,
+    nup=2x2,
+    frame=true,
+    delta=0.35cm 0.35cm,
+    turn=false,
+    column=true
+  ]{.build/presentation.pdf}%
+}{%
+  \PackageError{folien-4-auf-a4}{Keine konvertierte Präsentation gefunden}{Bitte eine einzelne PDF-, PPTX- oder PPT-Datei in den Ordner praesi legen.}%
+}
+
+\end{document}
